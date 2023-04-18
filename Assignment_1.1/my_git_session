@@ -1,0 +1,1414 @@
+Script started on 2023-04-18 06:52:58+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ [K(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ sudo apt in stall git-all
+[sudo] password for shreelaxmi: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  adwaita-icon-theme apache2 apache2-bin
+  apache2-data apache2-utils at-spi2-core
+  cvs cvsps dh-elpa-helper elpa-dash
+  elpa-ghub elpa-git-commit
+  elpa-let-alist elpa-magit
+  elpa-magit-popup elpa-treepy
+  elpa-with-editor emacs emacs-bin-common
+  emacs-common emacs-el emacs-gtk
+  emacsen-common fontconfig
+  fonts-droid-fallback fonts-noto-mono
+  fonts-urw-base35 ghostscript git-cvs
+  git-daemon-run git-doc git-el git-email
+  git-gui git-mediawiki git-svn gitk
+  gitweb gsfonts gtk-update-icon-cache
+  hicolor-icon-theme humanity-icon-theme
+  imagemagick-6-common
+  libalgorithm-c3-perl libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap libatk-bridge2.0-0
+  libatk1.0-0 libatk1.0-data
+  libatspi2.0-0 libauthen-sasl-perl
+  libavahi-client3 libavahi-common-data
+  libavahi-common3
+  libb-hooks-endofscope-perl
+  libb-hooks-op-check-perl
+  libcairo-gobject2 libcairo2
+  libcgi-fast-perl libcgi-pm-perl
+  libclass-c3-perl libclass-c3-xs-perl
+  libclass-data-inheritable-perl
+  libclass-inspector-perl
+  libclass-method-modifiers-perl
+  libclass-singleton-perl
+  libclass-xsaccessor-perl libcolord2
+  libcommon-sense-perl libcups2
+  libdata-dump-perl libdata-optlist-perl
+  libdatetime-format-builder-perl
+  libdatetime-format-iso8601-perl
+  libdatetime-format-strptime-perl
+  libdatetime-locale-perl
+  libdatetime-perl
+  libdatetime-timezone-perl libdatrie1
+  libdbd-sqlite3-perl libdbi-perl
+  libdevel-callchecker-perl
+  libdevel-caller-perl
+  libdevel-lexalias-perl
+  libdevel-stacktrace-perl
+  libdigest-bubblebabble-perl
+  libdigest-hmac-perl
+  libdynaloader-functions-perl
+  libemail-valid-perl
+  libencode-locale-perl libepoxy0
+  libeval-closure-perl
+  libexception-class-perl libfcgi-perl
+  libfftw3-double3 libfile-listing-perl
+  libfile-sharedir-perl libfont-afm-perl
+  libgd3 libgdk-pixbuf2.0-0
+  libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgif7
+  libgomp1 libgraphite2-3 libgs9
+  libgs9-common libgtk-3-0 libgtk-3-bin
+  libgtk-3-common libharfbuzz0b
+  libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl
+  libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl
+  libhttp-negotiate-perl libidn11
+  libijs-0.35 libio-html-perl
+  libio-socket-ssl-perl libjansson4
+  libjbig0 libjbig2dec0 libjpeg-turbo8
+  libjpeg8 libjson-perl libjson-xs-perl
+  liblcms2-2 liblqr-1-0 liblua5.2-0
+  liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libm17n-0
+  libmagickcore-6.q16-6
+  libmagickwand-6.q16-6 libmailtools-perl
+  libmediawiki-api-perl
+  libmodule-implementation-perl
+  libmodule-runtime-perl
+  libmro-compat-perl
+  libnamespace-autoclean-perl
+  libnamespace-clean-perl libnet-dns-perl
+  libnet-dns-sec-perl
+  libnet-domain-tld-perl libnet-http-perl
+  libnet-ip-perl libnet-libidn-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl
+  libopenjp2-7 libotf0
+  libpackage-stash-perl
+  libpackage-stash-xs-perl
+  libpadwalker-perl libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpaper-utils libpaper1
+  libparams-classify-perl
+  libparams-util-perl
+  libparams-validate-perl
+  libparams-validationcompiler-perl
+  libperl4-corelibs-perl libpixman-1-0
+  libreadonly-perl libref-util-perl
+  libref-util-xs-perl librest-0.7-0
+  librole-tiny-perl librsvg2-2
+  librsvg2-common libserf-1-1
+  libsoup-gnome2.4-1 libspecio-perl
+  libsub-exporter-perl
+  libsub-exporter-progressive-perl
+  libsub-identify-perl
+  libsub-install-perl libsub-name-perl
+  libsub-quote-perl libsvn-perl libsvn1
+  libtcl8.6 libterm-readkey-perl
+  libthai-data libthai0 libtiff5
+  libtimedate-perl libtk8.6
+  libtry-tiny-perl
+  libtypes-serialiser-perl liburi-perl
+  libutf8proc2 libvariable-magic-perl
+  libwayland-cursor0 libwayland-egl1
+  libwebp6 libwebpmux3 libwww-perl
+  libwww-robotrules-perl libxcb-render0
+  libxcursor1 libxkbcommon0 libxss1
+  libxstring-perl libyaml-libyaml-perl
+  libyaml-perl m17n-db
+  perl-openssl-defaults poppler-data
+  runit ssl-cert tcl tcl8.6 tk tk8.6
+  ubuntu-mono xbitmaps xterm
+Suggested packages:
+  apache2-doc apache2-suexec-pristine
+  | apache2-suexec-custom mksh rcs
+  mailutils emacs-common-non-dfsg
+  fonts-noto fonts-freefont-otf
+  | fonts-freefont-ttf fonts-texgyre
+  ghostscript-x aspell meld mediawiki
+  subversion libgssapi-perl colord
+  cups-common libclone-perl libmldbm-perl
+  libnet-daemon-perl
+  libsql-statement-perl libfftw3-bin
+  libfftw3-dev libgd-tools gvfs
+  liblcms2-utils libcrypt-ssleay-perl
+  m17n-docs libmagickcore-6.q16-6-extra
+  libscalar-number-perl librsvg2-bin
+  libtest-fatal-perl libauthen-ntlm-perl
+  libyaml-shell-perl poppler-utils
+  fonts-japanese-mincho
+  | fonts-ipafont-mincho
+  fonts-japanese-gothic
+  | fonts-ipafont-gothic
+  fonts-arphic-ukai fonts-arphic-uming
+  fonts-nanum openssl-blacklist
+  tcl-tclreadline xfonts-cyrillic
+The following NEW packages will be installed:
+  adwaita-icon-theme apache2 apache2-bin
+  apache2-data apache2-utils at-spi2-core
+  cvs cvsps dh-elpa-helper elpa-dash
+  elpa-ghub elpa-git-commit
+  elpa-let-alist elpa-magit
+  elpa-magit-popup elpa-treepy
+  elpa-with-editor emacs emacs-bin-common
+  emacs-common emacs-el emacs-gtk
+  emacsen-common fontconfig
+  fonts-droid-fallback fonts-noto-mono
+  fonts-urw-base35 ghostscript git-all
+  git-cvs git-daemon-run git-doc git-el
+  git-email git-gui git-mediawiki git-svn
+  gitk gitweb gsfonts
+  gtk-update-icon-cache
+  hicolor-icon-theme humanity-icon-theme
+  imagemagick-6-common
+  libalgorithm-c3-perl libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap libatk-bridge2.0-0
+  libatk1.0-0 libatk1.0-data
+  libatspi2.0-0 libauthen-sasl-perl
+  libavahi-client3 libavahi-common-data
+  libavahi-common3
+  libb-hooks-endofscope-perl
+  libb-hooks-op-check-perl
+  libcairo-gobject2 libcairo2
+  libcgi-fast-perl libcgi-pm-perl
+  libclass-c3-perl libclass-c3-xs-perl
+  libclass-data-inheritable-perl
+  libclass-inspector-perl
+  libclass-method-modifiers-perl
+  libclass-singleton-perl
+  libclass-xsaccessor-perl libcolord2
+  libcommon-sense-perl libcups2
+  libdata-dump-perl libdata-optlist-perl
+  libdatetime-format-builder-perl
+  libdatetime-format-iso8601-perl
+  libdatetime-format-strptime-perl
+  libdatetime-locale-perl
+  libdatetime-perl
+  libdatetime-timezone-perl libdatrie1
+  libdbd-sqlite3-perl libdbi-perl
+  libdevel-callchecker-perl
+  libdevel-caller-perl
+  libdevel-lexalias-perl
+  libdevel-stacktrace-perl
+  libdigest-bubblebabble-perl
+  libdigest-hmac-perl
+  libdynaloader-functions-perl
+  libemail-valid-perl
+  libencode-locale-perl libepoxy0
+  libeval-closure-perl
+  libexception-class-perl libfcgi-perl
+  libfftw3-double3 libfile-listing-perl
+  libfile-sharedir-perl libfont-afm-perl
+  libgd3 libgdk-pixbuf2.0-0
+  libgdk-pixbuf2.0-bin
+  libgdk-pixbuf2.0-common libgif7
+  libgomp1 libgraphite2-3 libgs9
+  libgs9-common libgtk-3-0 libgtk-3-bin
+  libgtk-3-common libharfbuzz0b
+  libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl
+  libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl
+  libhttp-negotiate-perl libidn11
+  libijs-0.35 libio-html-perl
+  libio-socket-ssl-perl libjansson4
+  libjbig0 libjbig2dec0 libjpeg-turbo8
+  libjpeg8 libjson-perl libjson-xs-perl
+  liblcms2-2 liblqr-1-0 liblua5.2-0
+  liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libm17n-0
+  libmagickcore-6.q16-6
+  libmagickwand-6.q16-6 libmailtools-perl
+  libmediawiki-api-perl
+  libmodule-implementation-perl
+  libmodule-runtime-perl
+  libmro-compat-perl
+  libnamespace-autoclean-perl
+  libnamespace-clean-perl libnet-dns-perl
+  libnet-dns-sec-perl
+  libnet-domain-tld-perl libnet-http-perl
+  libnet-ip-perl libnet-libidn-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl
+  libopenjp2-7 libotf0
+  libpackage-stash-perl
+  libpackage-stash-xs-perl
+  libpadwalker-perl libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpaper-utils libpaper1
+  libparams-classify-perl
+  libparams-util-perl
+  libparams-validate-perl
+  libparams-validationcompiler-perl
+  libperl4-corelibs-perl libpixman-1-0
+  libreadonly-perl libref-util-perl
+  libref-util-xs-perl librest-0.7-0
+  librole-tiny-perl librsvg2-2
+  librsvg2-common libserf-1-1
+  libsoup-gnome2.4-1 libspecio-perl
+  libsub-exporter-perl
+  libsub-exporter-progressive-perl
+  libsub-identify-perl
+  libsub-install-perl libsub-name-perl
+  libsub-quote-perl libsvn-perl libsvn1
+  libtcl8.6 libterm-readkey-perl
+  libthai-data libthai0 libtiff5
+  libtimedate-perl libtk8.6
+  libtry-tiny-perl
+  libtypes-serialiser-perl liburi-perl
+  libutf8proc2 libvariable-magic-perl
+  libwayland-cursor0 libwayland-egl1
+  libwebp6 libwebpmux3 libwww-perl
+  libwww-robotrules-perl libxcb-render0
+  libxcursor1 libxkbcommon0 libxss1
+  libxstring-perl libyaml-libyaml-perl
+  libyaml-perl m17n-db
+  perl-openssl-defaults poppler-data
+  runit ssl-cert tcl tcl8.6 tk tk8.6
+  ubuntu-mono xbitmaps xterm
+0 upgraded, 229 newly installed, 0 to remove and 0 not upgraded.
+Need to get 85.9 MB of archives.
+After this operation, 371 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (91.1[0m                                          Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libapr1 amd64 1.6.5-1ubuntu1 [91.4 kB]
+[33m                                          0% [1 libapr1 12.6 kB/91.4 kB 14%][0m[33m0% [1 libapr1 38.4 kB/91.4 kB 42%][0m[33m0% [1 libapr1 78.3 kB/91.4 kB 86%][0m[33m                                  0% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1 amd64 1.6.1-4ubuntu2 [84.7 kB]
+[33m0% [2 libaprutil1 2294 B/84.7 kB 3%][0m[33m                                    0% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-4ubuntu2 [10.5 kB]
+[33m0% [3 libaprutil1-dbd-sqlite3 2301 B/10.5 [0m[33m                                          0% [Waiting for headers][0m                        Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1-ldap amd64 1.6.1-4ubuntu2 [8736 B]
+[33m0% [4 libaprutil1-ldap 493 B/8736 B 6%][0m[33m                                       1% [Waiting for headers][0m                        Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libjansson4 amd64 2.12-1build1 [28.9 kB]
+[33m1% [5 libjansson4 1780 B/28.9 kB 6%][0m[33m                                    1% [Waiting for headers][0m                        Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 liblua5.2-0 amd64 5.2.4-1.1build3 [106 kB]
+[33m1% [6 liblua5.2-0 889 B/106 kB 1%][0m                                  Ign:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-bin amd64 2.4.41-4ubuntu3.13
+[33m                                  1% [Waiting for headers][0m                        Ign:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-data all 2.4.41-4ubuntu3.13
+                        Ign:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-utils amd64 2.4.41-4ubuntu3.13
+                        Ign:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2 amd64 2.4.41-4ubuntu3.13
+                        Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-droid-fallback all 1:6.0.1r16-1.1 [1805 kB]
+[33m1% [11 fonts-droid-fallback 1265 B/1805 kB[0m[33m1% [Connecting to security.ubuntu.com (91.[0m[33m3% [Waiting for headers] [Connecting to ar[0m                                          Err:7 http://security.ubuntu.com/ubuntu focal-updates/main amd64 apache2-bin amd64 2.4.41-4ubuntu3.13
+  404  Not Found [IP: 91.189.91.38 80]
+[33m3% [Connecting to archive.ubuntu.com (91.1[0m                                          Err:8 http://security.ubuntu.com/ubuntu focal-updates/main amd64 apache2-data all 2.4.41-4ubuntu3.13
+  404  Not Found [IP: 91.189.91.38 80]
+                                          Err:9 http://security.ubuntu.com/ubuntu focal-updates/main amd64 apache2-utils amd64 2.4.41-4ubuntu3.13
+  404  Not Found [IP: 91.189.91.38 80]
+                                          Err:10 http://security.ubuntu.com/ubuntu focal-updates/main amd64 apache2 amd64 2.4.41-4ubuntu3.13
+  404  Not Found [IP: 91.189.91.38 80]
+[33m                                          3% [Waiting for headers][0m                        Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+[33m3% [12 libgomp1 12.6 kB/102 kB 12%][0m[33m3% [12 libgomp1 22.9 kB/102 kB 23%][0m[33m3% [12 libgomp1 86.0 kB/102 kB 85%][0m[33m3% [Working]             371 kB/s 3min 45s[0m                                          Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libfftw3-double3 amd64 3.3.8-2ubuntu1 [728 kB]
+[33m                                          3% [13 libfftw3-double3 7445 B/728 kB 1%][0m[33m3% [13 libfftw3-double3 110 kB/728 kB 15%][0m[33m3% [13 libfftw3-double3 396 kB/728 kB 54%][0m[33m3% [13 libfftw3-double3 541 kB/728 kB 74%][0m[33m                                          4% [Waiting for headers][0m                        Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.20.04.1 [27.3 kB]
+[33m4% [14 libjbig0 27.3 kB/27.3 kB 100%][0m[33m4% [Working]             371 kB/s 3min 43s[0m                                          Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.3 [118 kB]
+[33m                                          4% [15 libjpeg-turbo8 0 B/118 kB 0%][0m[33m                                    4% [Waiting for headers][0m                        Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]
+[33m4% [Waiting for headers][0m                        Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 liblcms2-2 amd64 2.9-4 [140 kB]
+[33m4% [17 liblcms2-2 65.5 kB/140 kB 47%][0m[33m                                     4% [Waiting for headers][0m                        Get:18 http://archive.ubuntu.com/ubuntu focal/universe amd64 liblqr-1-0 amd64 0.4.2-2.1 [27.7 kB]
+[33m4% [18 liblqr-1-0 27.7 kB/27.7 kB 100%][0m[33m4% [Working]             371 kB/s 3min 42s[0m                                          Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]
+[33m                                          4% [19 libwebp6 32.7 kB/185 kB 18%][0m[33m                                   5% [Waiting for headers][0m                        Ign:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.7
+                        Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebpmux3 amd64 0.6.1-2ubuntu0.20.04.1 [19.5 kB]
+[33m5% [21 libwebpmux3 18.8 kB/19.5 kB 97%][0m[33m5% [Connecting to security.ubuntu.com (185[0m                                          Ign:22 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 imagemagick-6-common all 8:6.9.10.23+dfsg-2.1ubuntu11.4
+[33m5% [Connecting to security.ubuntu.com (185[0m                                          Err:20 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.7
+  404  Not Found [IP: 91.189.91.38 80]
+[33m                                          5% [Waiting for headers][0m                        Err:22 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 imagemagick-6-common all 8:6.9.10.23+dfsg-2.1ubuntu11.4
+  404  Not Found [IP: 91.189.91.38 80]
+[33m5% [Waiting for headers][0m                        Ign:23 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libmagickcore-6.q16-6 amd64 8:6.9.10.23+dfsg-2.1ubuntu11.4
+[33m5% [Working]             371 kB/s 3min 42s[0m                                          Err:23 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 libmagickcore-6.q16-6 amd64 8:6.9.10.23+dfsg-2.1ubuntu11.4
+  404  Not Found [IP: 91.189.91.38 80]
+[33m                                          5% [Waiting for headers][0m                        Ign:24 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libmagickwand-6.q16-6 amd64 8:6.9.10.23+dfsg-2.1ubuntu11.4
+[33m5% [Waiting for headers][0m                        Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 poppler-data all 0.4.9-2 [1475 kB]
+[33m5% [25 poppler-data 11.3 kB/1475 kB 1%][0m                                       Err:24 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 libmagickwand-6.q16-6 amd64 8:6.9.10.23+dfsg-2.1ubuntu11.4
+  404  Not Found [IP: 91.189.91.38 80]
+[33m5% [25 poppler-data 12.6 kB/1475 kB 1%][0m[33m5% [25 poppler-data 60.3 kB/1475 kB 4%][0m[33m5% [25 poppler-data 190 kB/1475 kB 13%][0m[33m5% [25 poppler-data 452 kB/1475 kB 31%][0m[33m                                       6% [Waiting for headers][0m                        Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 hicolor-icon-theme all 0.17-2 [9976 B]
+[33m6% [Working]             371 kB/s 3min 38s[0m                                          Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-common all 2.40.0+dfsg-3ubuntu0.4 [4592 B]
+[33m6% [27 libgdk-pixbuf2.0-common 3579 B/4592[0m[33m                                          6% [Waiting for headers][0m                        Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-0 amd64 2.40.0+dfsg-3ubuntu0.4 [168 kB]
+[33m6% [28 libgdk-pixbuf2.0-0 16.2 kB/168 kB 1[0m[33m                                          7% [Waiting for headers][0m                        Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.1 [28.8 kB]
+[33m7% [29 gtk-update-icon-cache 15.6 kB/28.8 [0m[33m                                          7% [Waiting for headers][0m                        Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpixman-1-0 amd64 0.38.4-0ubuntu2.1 [227 kB]
+[33m7% [30 libpixman-1-0 772 B/227 kB 0%][0m[33m                                     7% [Waiting for headers][0m                        Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-render0 amd64 1.14-2 [14.8 kB]
+[33m7% [31 libxcb-render0 10.6 kB/14.8 kB 71%][0m                                          Get:32 http://archive.ubuntu.com/ubuntu focal/main amd64 libcairo2 amd64 1.16.0-4ubuntu1 [583 kB]
+[33m                                          7% [32 libcairo2 7020 B/583 kB 1%][0m[33m                                  8% [Waiting for headers][0m                        Get:33 http://archive.ubuntu.com/ubuntu focal/main amd64 libcairo-gobject2 amd64 1.16.0-4ubuntu1 [17.2 kB]
+[33m8% [33 libcairo-gobject2 2832 B/17.2 kB 16[0m[33m8% [Connecting to archive.ubuntu.com (91.1[0m[33m                                          8% [Waiting for headers][0m                        Get:34 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig amd64 2.13.1-2ubuntu3 [171 kB]
+[33m8% [34 fontconfig 12.6 kB/171 kB 7%][0m[33m8% [34 fontconfig 38.4 kB/171 kB 22%][0m[33m                                     8% [34 fontconfig 121 kB/171 kB 71%][0m[33m8% [Working]             607 kB/s 2min 11s[0m                                          Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 libgraphite2-3 amd64 1.3.13-11build1 [73.5 kB]
+[33m                                          8% [35 libgraphite2-3 1006 B/73.5 kB 1%][0m[33m                                        8% [Waiting for headers][0m                        Get:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libharfbuzz0b amd64 2.6.4-1ubuntu4.2 [391 kB]
+[33m8% [36 libharfbuzz0b 8319 B/391 kB 2%][0m[33m                                      9% [Waiting for headers][0m                        Get:37 http://archive.ubuntu.com/ubuntu focal/main amd64 libthai-data all 0.1.28-3 [134 kB]
+[33m9% [37 libthai-data 8472 B/134 kB 6%][0m[33m                                     9% [Waiting for headers][0m                        Get:38 http://archive.ubuntu.com/ubuntu focal/main amd64 libdatrie1 amd64 0.2.12-3 [18.7 kB]
+[33m9% [38 libdatrie1 18.0 kB/18.7 kB 97%][0m[33m                                      9% [Waiting for headers][0m                        Get:39 http://archive.ubuntu.com/ubuntu focal/main amd64 libthai0 amd64 0.1.28-3 [18.1 kB]
+[33m9% [39 libthai0 18.1 kB/18.1 kB 100%][0m[33m                                     9% [Waiting for headers][0m                        Get:40 http://archive.ubuntu.com/ubuntu focal/main amd64 libpango-1.0-0 amd64 1.44.7-2ubuntu4 [162 kB]
+[33m9% [40 libpango-1.0-0 1271 B/162 kB 1%][0m[33m9% [Waiting for headers]  607 kB/s 2min 9s[0m                                          Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 libpangoft2-1.0-0 amd64 1.44.7-2ubuntu4 [34.9 kB]
+[33m9% [41 libpangoft2-1.0-0 3846 B/34.9 kB 11[0m[33m9% [Waiting for headers]  607 kB/s 2min 9s[0m                                          Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 libpangocairo-1.0-0 amd64 1.44.7-2ubuntu4 [24.8 kB]
+[33m9% [42 libpangocairo-1.0-0 3413 B/24.8 kB [0m[33m                                          10% [Waiting for headers][0m                         Get:43 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-2 amd64 2.48.9-1ubuntu0.20.04.1 [2253 kB]
+[33m10% [43 librsvg2-2 5364 B/2253 kB 0%][0m[33m                                     12% [Waiting for headers][0m                         Get:44 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-common amd64 2.48.9-1ubuntu0.20.04.1 [9212 B]
+[33m12% [Connecting to archive.ubuntu.com (91.[0m[33m                                          12% [Waiting for headers][0m                         Get:45 http://archive.ubuntu.com/ubuntu focal/main amd64 humanity-icon-theme all 0.6.15 [1250 kB]
+[33m12% [45 humanity-icon-theme 12.6 kB/1250 k[0m[33m12% [45 humanity-icon-theme 38.4 kB/1250 k[0m[33m12% [45 humanity-icon-theme 119 kB/1250 kB[0m[33m12% [45 humanity-icon-theme 377 kB/1250 kB[0m[33m13% [45 humanity-icon-theme 1245 kB/1250 k[0m[33m13% [Working]             607 kB/s 2min 4s[0m                                          Get:46 http://archive.ubuntu.com/ubuntu focal/main amd64 ubuntu-mono all 19.04-0ubuntu3 [147 kB]
+[33m                                          13% [46 ubuntu-mono 8733 B/147 kB 6%][0m[33m                                     13% [Waiting for headers][0m                         Get:47 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 adwaita-icon-theme all 3.36.1-2ubuntu0.20.04.2 [3441 kB]
+[33m13% [47 adwaita-icon-theme 35.1 kB/3441 kB[0m[33m16% [47 adwaita-icon-theme 2761 kB/3441 kB[0m                                          Get:48 http://archive.ubuntu.com/ubuntu focal/main amd64 libatspi2.0-0 amd64 2.36.0-2 [64.2 kB]
+[33m17% [48 libatspi2.0-0 19.7 kB/64.2 kB 31%][0m[33m                                          17% [Waiting for headers][0m                         Get:49 http://archive.ubuntu.com/ubuntu focal/main amd64 at-spi2-core amd64 2.36.0-2 [48.7 kB]
+[33m17% [49 at-spi2-core 12.3 kB/48.7 kB 25%][0m[33m                                         17% [Waiting for headers][0m                         Get:50 http://archive.ubuntu.com/ubuntu focal/universe amd64 cvs amd64 2:1.12.13+real-27build1 [2518 kB]
+[33m17% [50 cvs 5421 B/2518 kB 0%][0m                              Get:51 http://archive.ubuntu.com/ubuntu focal/universe amd64 cvsps amd64 2.1-8build2 [43.8 kB]
+[33m19% [51 cvsps 43.8 kB/43.8 kB 100%][0m[33m19% [Working]                1757 kB/s 39s[0m                                          Get:52 http://archive.ubuntu.com/ubuntu focal/universe amd64 dh-elpa-helper all 2.0.2 [7496 B]
+[33m                                          19% [52 dh-elpa-helper 3414 B/7496 B 46%][0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:53 http://archive.ubuntu.com/ubuntu focal/main amd64 emacsen-common all 3.0.4 [14.9 kB]
+[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:54 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-let-alist all 1.0.6-1 [5604 B]
+[33m20% [Working]                1757 kB/s 39s[0m                                          Get:55 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-treepy all 0.1.1-2 [11.6 kB]
+[33m                                          20% [55 elpa-treepy 8049 B/11.6 kB 69%][0m[33m20% [Working]                1757 kB/s 39s[0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:56 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-ghub all 3.3.0-1 [54.6 kB]
+[33m                                          20% [56 elpa-ghub 12.6 kB/54.6 kB 23%][0m[33m20% [56 elpa-ghub 38.4 kB/54.6 kB 70%][0m[33m20% [Working]                1757 kB/s 39s[0m                                          Get:57 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-dash all 2.17.0+dfsg-1 [52.7 kB]
+[33m                                          20% [57 elpa-dash 4871 B/52.7 kB 9%][0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:58 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-with-editor all 2.9.1-1 [22.7 kB]
+[33m20% [58 elpa-with-editor 3402 B/22.7 kB 15[0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:59 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-git-commit all 2.90.1-2 [14.3 kB]
+[33m20% [59 elpa-git-commit 1049 B/14.3 kB 7%][0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:60 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-magit-popup all 2.13.2-1 [25.7 kB]
+[33m20% [60 elpa-magit-popup 1928 B/25.7 kB 8%[0m[33m20% [Waiting for headers]    1757 kB/s 39s[0m                                          Get:61 http://archive.ubuntu.com/ubuntu focal/universe amd64 elpa-magit all 2.90.1-2 [394 kB]
+[33m                                          20% [61 elpa-magit 1701 B/394 kB 0%][0m[33m21% [61 elpa-magit 326 kB/394 kB 83%][0m[33m21% [Waiting for headers]    1757 kB/s 38s[0m                                          Get:62 http://archive.ubuntu.com/ubuntu focal/universe amd64 emacs-common all 1:26.3+1-1ubuntu2 [13.3 MB]
+[33m                                          21% [62 emacs-common 6747 B/13.3 MB 0%][0m[33m22% [62 emacs-common 1321 kB/13.3 MB 10%][0m[33m26% [62 emacs-common 5049 kB/13.3 MB 38%][0m[33m28% [62 emacs-common 7463 kB/13.3 MB 56%][0m[33m29% [62 emacs-common 9207 kB/13.3 MB 69%][0m[33m32% [62 emacs-common 12.3 MB/13.3 MB 92%][0m[33m33% [Waiting for headers]    1757 kB/s 31s[0m                                          Get:63 http://archive.ubuntu.com/ubuntu focal/universe amd64 emacs-bin-common amd64 1:26.3+1-1ubuntu2 [112 kB]
+[33m33% [63 emacs-bin-common 19.5 kB/112 kB 18[0m[33m34% [Waiting for headers]    1757 kB/s 31s[0m                                          Get:64 http://archive.ubuntu.com/ubuntu focal/main amd64 libgif7 amd64 5.1.9-1 [32.2 kB]
+[33m                                          34% [64 libgif7 32.2 kB/32.2 kB 100%][0m[33m34% [Working]                1757 kB/s 31s[0m                                          Get:65 http://archive.ubuntu.com/ubuntu focal/main amd64 libatk1.0-data all 2.35.1-1ubuntu2 [2964 B]
+[33m34% [65 libatk1.0-data 2964 B/2964 B 100%][0m[33m34% [Working]                1757 kB/s 31s[0m                                          Get:66 http://archive.ubuntu.com/ubuntu focal/main amd64 libatk1.0-0 amd64 2.35.1-1ubuntu2 [45.5 kB]
+[33m                                          34% [66 libatk1.0-0 3051 B/45.5 kB 7%][0m[33m34% [66 libatk1.0-0 44.1 kB/45.5 kB 97%][0m[33m34% [Connecting to archive.ubuntu.com (91.[0m[33m34% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:67 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libatk-bridge2.0-0 amd64 2.34.2-0ubuntu2~20.04.1 [58.2 kB]
+[33m34% [67 libatk-bridge2.0-0 12.6 kB/58.2 kB[0m[33m34% [67 libatk-bridge2.0-0 31.9 kB/58.2 kB[0m[33m34% [Working]                2332 kB/s 23s[0m                                          Get:68 http://archive.ubuntu.com/ubuntu focal/main amd64 libcolord2 amd64 1.4.4-2 [133 kB]
+[33m                                          34% [68 libcolord2 7445 B/133 kB 6%][0m[33m34% [68 libcolord2 121 kB/133 kB 91%][0m[33m34% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:69 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-common-data amd64 0.7-4ubuntu7.1 [21.4 kB]
+[33m34% [69 libavahi-common-data 2528 B/21.4 k[0m[33m34% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:70 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-common3 amd64 0.7-4ubuntu7.1 [21.7 kB]
+[33m34% [70 libavahi-common3 179 B/21.7 kB 1%][0m[33m34% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:71 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libavahi-client3 amd64 0.7-4ubuntu7.1 [25.5 kB]
+[33m34% [71 libavahi-client3 14.3 kB/25.5 kB 5[0m[33m35% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:72 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcups2 amd64 2.3.1-9ubuntu1.2 [233 kB]
+[33m                                          35% [72 libcups2 67 B/233 kB 0%][0m[33m35% [72 libcups2 160 kB/233 kB 69%][0m[33m35% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:73 http://archive.ubuntu.com/ubuntu focal/main amd64 libepoxy0 amd64 1.5.4-1 [191 kB]
+[33m                                          35% [73 libepoxy0 26.9 kB/191 kB 14%][0m[33m35% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:74 http://archive.ubuntu.com/ubuntu focal/main amd64 libsoup-gnome2.4-1 amd64 2.70.0-1 [6136 B]
+[33m35% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:75 http://archive.ubuntu.com/ubuntu focal/main amd64 librest-0.7-0 amd64 0.8.1-1 [32.2 kB]
+[33m35% [75 librest-0.7-0 28.2 kB/32.2 kB 88%][0m[33m35% [Working]                2332 kB/s 23s[0m                                          Get:76 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-cursor0 amd64 1.18.0-1ubuntu0.1 [10.3 kB]
+[33m35% [76 libwayland-cursor0 1794 B/10.3 kB [0m                                          Get:77 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-egl1 amd64 1.18.0-1ubuntu0.1 [5596 B]
+[33m35% [77 libwayland-egl1 5383 B/5596 B 96%][0m[33m36% [Working]                2332 kB/s 23s[0m[33m36% [Waiting for headers]    2332 kB/s 23s[0m                                          Get:78 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcursor1 amd64 1:1.2.0-2 [20.1 kB]
+[33m                                          36% [78 libxcursor1 13.0 kB/20.1 kB 65%][0m[33m36% [Working]                2332 kB/s 23s[0m                                          Get:79 http://archive.ubuntu.com/ubuntu focal/main amd64 libxkbcommon0 amd64 0.10.0-1 [98.4 kB]
+[33m                                          36% [79 libxkbcommon0 2366 B/98.4 kB 2%][0m[33m36% [79 libxkbcommon0 40.8 kB/98.4 kB 41%][0m[33m36% [Working]                2332 kB/s 23s[0m                                          Get:80 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-common all 3.24.20-0ubuntu1.1 [234 kB]
+[33m                                          36% [80 libgtk-3-common 291 B/234 kB 0%][0m[33m                                        36% [Waiting for headers][0m                         Get:81 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-0 amd64 3.24.20-0ubuntu1.1 [2620 kB]
+[33m36% [81 libgtk-3-0 2614 B/2620 kB 0%][0m[33m37% [81 libgtk-3-0 806 kB/2620 kB 31%][0m[33m                                      39% [Waiting for headers][0m                         Get:82 http://archive.ubuntu.com/ubuntu focal/main amd64 m17n-db all 1.8.0-3 [1215 kB]
+[33m39% [82 m17n-db 17.9 kB/1215 kB 1%][0m[33m                                   40% [Waiting for headers][0m                         Get:83 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgd3 amd64 2.2.5-5.2ubuntu2.1 [118 kB]
+[33m40% [83 libgd3 19.3 kB/118 kB 16%][0m[33m                                  40% [Waiting for headers][0m                         Get:84 http://archive.ubuntu.com/ubuntu focal/main amd64 libotf0 amd64 0.9.13-7 [45.2 kB]
+[33m40% [84 libotf0 29.2 kB/45.2 kB 65%][0m[33m                                    40% [Waiting for headers][0m                         Get:85 http://archive.ubuntu.com/ubuntu focal/main amd64 libm17n-0 amd64 1.8.0-2 [248 kB]
+[33m40% [85 libm17n-0 12.9 kB/248 kB 5%][0m[33m                                    40% [Waiting for headers][0m                         Get:86 http://archive.ubuntu.com/ubuntu focal/universe amd64 emacs-gtk amd64 1:26.3+1-1ubuntu2 [3588 kB]
+[33m41% [86 emacs-gtk 14.0 kB/3588 kB 0%][0m[33m41% [86 emacs-gtk 950 kB/3588 kB 26%][0m[33m43% [86 emacs-gtk 2662 kB/3588 kB 74%][0m                                      Get:87 http://archive.ubuntu.com/ubuntu focal/universe amd64 emacs all 1:26.3+1-1ubuntu2 [12.7 kB]
+[33m                                      44% [87 emacs 2008 B/12.7 kB 16%][0m[33m44% [Working]            174 kB/s 4min 24s[0m                                          Get:88 http://archive.ubuntu.com/ubuntu focal/universe amd64 emacs-el all 1:26.3+1-1ubuntu2 [15.9 MB]
+[33m                                          44% [88 emacs-el 4855 B/15.9 MB 0%][0m[33m46% [88 emacs-el 2510 kB/15.9 MB 16%][0m[33m49% [88 emacs-el 5645 kB/15.9 MB 36%][0m[33m50% [88 emacs-el 6763 kB/15.9 MB 43%][0m[33m53% [88 emacs-el 9756 kB/15.9 MB 61%][0m[33m56% [88 emacs-el 12.4 MB/15.9 MB 78%][0m[33m59% [Working]            174 kB/s 2min 52s[0m[33m                                          59% [Waiting for headers][0m                         Get:89 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 fonts-noto-mono all 20200323-1build1~ubuntu20.04.1 [80.6 kB]
+[33m59% [89 fonts-noto-mono 12.6 kB/80.6 kB 16[0m[33m59% [89 fonts-noto-mono 38.4 kB/80.6 kB 48[0m[33m59% [Working]                 3845 kB/s 7s[0m                                          Get:90 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-urw-base35 all 20170801.1-3 [6333 kB]
+[33m59% [90 fonts-urw-base35 2291 B/6333 kB 0%[0m[33m59% [90 fonts-urw-base35 171 kB/6333 kB 3%[0m[33m60% [90 fonts-urw-base35 722 kB/6333 kB 11[0m[33m62% [90 fonts-urw-base35 2622 kB/6333 kB 4[0m[33m64% [90 fonts-urw-base35 5684 kB/6333 kB 9[0m[33m65% [90 fonts-urw-base35 6114 kB/6333 kB 9[0m                                          Ign:91 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgs9-common all 9.50~dfsg-5ubuntu4.6
+[33m65% [Working]                 3845 kB/s 6s[0m                                          Get:92 http://archive.ubuntu.com/ubuntu focal/main amd64 libidn11 amd64 1.33-2.2ubuntu2 [46.2 kB]
+[33m                                          65% [92 libidn11 21.4 kB/46.2 kB 46%][0m[33m65% [Connecting to security.ubuntu.com (18[0m                                          Get:93 http://archive.ubuntu.com/ubuntu focal/main amd64 libijs-0.35 amd64 0.35-15 [15.7 kB]
+                                          Get:94 http://archive.ubuntu.com/ubuntu focal/main amd64 libjbig2dec0 amd64 0.18-1ubuntu1 [60.0 kB]
+[33m65% [Connecting to security.ubuntu.com (18[0m[33m65% [Connecting to security.ubuntu.com (18[0m                                          Get:95 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libopenjp2-7 amd64 2.3.1-1ubuntu4.20.04.1 [141 kB]
+[33m65% [Connecting to security.ubuntu.com (18[0m[33m66% [Connecting to security.ubuntu.com (18[0m                                          Get:96 http://archive.ubuntu.com/ubuntu focal/main amd64 libpaper1 amd64 1.1.28 [13.0 kB]
+                                          Ign:97 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgs9 amd64 9.50~dfsg-5ubuntu4.6
+[33m66% [Connecting to security.ubuntu.com (18[0m                                          Ign:98 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ghostscript amd64 9.50~dfsg-5ubuntu4.6
+                                          Ign:99 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git-doc all 1:2.25.1-1ubuntu3.8
+[33m66% [Connecting to security.ubuntu.com (18[0m                                          Err:91 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libgs9-common all 9.50~dfsg-5ubuntu4.6
+  404  Not Found [IP: 91.189.91.38 80]
+[33m66% [Waiting for headers]     3845 kB/s 6s[0m                                          Err:97 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libgs9 amd64 9.50~dfsg-5ubuntu4.6
+  404  Not Found [IP: 91.189.91.38 80]
+[33m66% [Waiting for headers]     3845 kB/s 6s[0m                                          Ign:100 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-el all 1:2.25.1-1ubuntu3.8
+[33m66% [Waiting for headers]     3845 kB/s 6s[0m                                          Err:98 http://security.ubuntu.com/ubuntu focal-updates/main amd64 ghostscript amd64 9.50~dfsg-5ubuntu4.6
+  404  Not Found [IP: 91.189.91.38 80]
+[33m66% [Waiting for headers]     3845 kB/s 6s[0m                                          Get:101 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdbi-perl amd64 1.643-1ubuntu0.1 [730 kB]
+[33m66% [Waiting for headers] [101 libdbi-perl[0m                                          Err:99 http://security.ubuntu.com/ubuntu focal-updates/main amd64 git-doc all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m                                          66% [101 libdbi-perl 14.3 kB/730 kB 2%][0m                                       Err:100 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-el all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m66% [101 libdbi-perl 14.3 kB/730 kB 2%][0m[33m66% [101 libdbi-perl 48.7 kB/730 kB 7%][0m[33m66% [101 libdbi-perl 97.7 kB/730 kB 13%][0m[33m                                        66% [101 libdbi-perl 298 kB/730 kB 41%][0m[33m66% [101 libdbi-perl 712 kB/730 kB 98%][0m[33m67% [Waiting for headers]    1194 kB/s 19s[0m                                          Get:102 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdbd-sqlite3-perl amd64 1.64-1build1 [154 kB]
+[33m67% [102 libdbd-sqlite3-perl 554 B/154 kB [0m[33m67% [Waiting for headers]    1194 kB/s 18s[0m                                          Ign:103 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-cvs all 1:2.25.1-1ubuntu3.8
+                                          Get:104 http://archive.ubuntu.com/ubuntu focal/main amd64 libjson-perl all 4.02000-2 [80.9 kB]
+[33m                                          67% [104 libjson-perl 4467 B/80.9 kB 6%][0m[33m67% [Connecting to security.ubuntu.com (91[0m                                          Get:105 http://archive.ubuntu.com/ubuntu focal/main amd64 libencode-locale-perl all 1.05-1 [12.3 kB]
+[33m67% [Connecting to security.ubuntu.com (91[0m[33m67% [Connecting to security.ubuntu.com (91[0m                                          Get:106 http://archive.ubuntu.com/ubuntu focal/main amd64 libtimedate-perl all 2.3200-1 [34.0 kB]
+[33m67% [Connecting to security.ubuntu.com (91[0m[33m67% [Connecting to security.ubuntu.com (91[0m                                          Get:107 http://archive.ubuntu.com/ubuntu focal/main amd64 libhttp-date-perl all 6.05-1 [9920 B]
+[33m67% [Connecting to security.ubuntu.com (91[0m[33m67% [Connecting to security.ubuntu.com (91[0m                                          Get:108 http://archive.ubuntu.com/ubuntu focal/main amd64 libfile-listing-perl all 6.04-1 [9774 B]
+                                          Get:109 http://archive.ubuntu.com/ubuntu focal/main amd64 libhtml-tagset-perl all 3.20-4 [12.5 kB]
+[33m67% [Connecting to security.ubuntu.com (91[0m[33m67% [Connecting to security.ubuntu.com (91[0m                                          Get:110 http://archive.ubuntu.com/ubuntu focal/main amd64 liburi-perl all 1.76-2 [77.5 kB]
+[33m67% [Connecting to security.ubuntu.com (91[0m[33m68% [Connecting to security.ubuntu.com (91[0m                                          Err:103 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-cvs all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m68% [Waiting for headers]    1194 kB/s 18s[0m                                          Get:111 http://archive.ubuntu.com/ubuntu focal/main amd64 libhtml-parser-perl amd64 3.72-5 [86.3 kB]
+[33m68% [111 libhtml-parser-perl 12.6 kB/86.3 [0m[33m68% [111 libhtml-parser-perl 38.4 kB/86.3 [0m[33m68% [Working]                1194 kB/s 18s[0m                                          Get:112 http://archive.ubuntu.com/ubuntu focal/main amd64 libhtml-tree-perl all 5.07-2 [200 kB]
+[33m68% [112 libhtml-tree-perl 10.0 kB/200 kB [0m[33m68% [112 libhtml-tree-perl 159 kB/200 kB 8[0m[33m68% [Waiting for headers]    1194 kB/s 18s[0m                                          Get:113 http://archive.ubuntu.com/ubuntu focal/main amd64 libio-html-perl all 1.001-1 [14.9 kB]
+[33m68% [113 libio-html-perl 3280 B/14.9 kB 22[0m[33m68% [Waiting for headers]    1194 kB/s 18s[0m                                          Get:114 http://archive.ubuntu.com/ubuntu focal/main amd64 liblwp-mediatypes-perl all 6.04-1 [19.5 kB]
+[33m68% [114 liblwp-mediatypes-perl 1019 B/19.[0m[33m68% [Working]                1194 kB/s 18s[0m                                          Get:115 http://archive.ubuntu.com/ubuntu focal/main amd64 libhttp-message-perl all 6.22-1 [76.1 kB]
+[33m68% [115 libhttp-message-perl 3161 B/76.1 [0m[33m68% [Waiting for headers]    1194 kB/s 18s[0m                                          Get:116 http://archive.ubuntu.com/ubuntu focal/main amd64 libhttp-cookies-perl all 6.08-1 [18.3 kB]
+[33m68% [116 libhttp-cookies-perl 18.3 kB/18.3[0m[33m69% [Working]                1194 kB/s 18s[0m                                          Get:117 http://archive.ubuntu.com/ubuntu focal/main amd64 libhttp-negotiate-perl all 6.01-1 [12.5 kB]
+[33m69% [117 libhttp-negotiate-perl 12.5 kB/12[0m[33m69% [Working]                1194 kB/s 18s[0m                                          Get:118 http://archive.ubuntu.com/ubuntu focal/main amd64 perl-openssl-defaults amd64 4 [7192 B]
+[33m69% [118 perl-openssl-defaults 7192 B/7192[0m[33m69% [Working]                1194 kB/s 18s[0m                                          Get:119 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-ssleay-perl amd64 1.88-2ubuntu1 [291 kB]
+[33m69% [119 libnet-ssleay-perl 21.9 kB/291 kB[0m                                          Get:120 http://archive.ubuntu.com/ubuntu focal/main amd64 libio-socket-ssl-perl all 2.067-1 [176 kB]
+[33m69% [120 libio-socket-ssl-perl 34.7 kB/176[0m[33m69% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:121 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-http-perl all 6.19-1 [22.8 kB]
+[33m69% [121 libnet-http-perl 1069 B/22.8 kB 5[0m[33m69% [Connecting to archive.ubuntu.com (91.[0m[33m69% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:122 http://archive.ubuntu.com/ubuntu focal/main amd64 liblwp-protocol-https-perl all 6.07-2ubuntu2 [8560 B]
+[33m69% [122 liblwp-protocol-https-perl 8560 B[0m[33m70% [Working]                1194 kB/s 17s[0m                                          Get:123 http://archive.ubuntu.com/ubuntu focal/main amd64 libtry-tiny-perl all 0.30-1 [20.5 kB]
+[33m70% [123 libtry-tiny-perl 3583 B/20.5 kB 1[0m                                          Get:124 http://archive.ubuntu.com/ubuntu focal/main amd64 libwww-robotrules-perl all 6.02-1 [12.6 kB]
+[33m70% [124 libwww-robotrules-perl 794 B/12.6[0m[33m70% [Working]                1194 kB/s 17s[0m                                          Get:125 http://archive.ubuntu.com/ubuntu focal/main amd64 libwww-perl all 6.43-1 [140 kB]
+[33m                                          70% [125 libwww-perl 2079 B/140 kB 1%][0m[33m70% [125 libwww-perl 94.8 kB/140 kB 68%][0m[33m70% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:126 http://archive.ubuntu.com/ubuntu focal/universe amd64 libmediawiki-api-perl all 0.41-2 [23.0 kB]
+[33m70% [126 libmediawiki-api-perl 910 B/23.0 [0m[33m70% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:127 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclass-inspector-perl all 1.36-1 [16.3 kB]
+[33m70% [127 libclass-inspector-perl 833 B/16.[0m[33m70% [Working]                1194 kB/s 17s[0m                                          Get:128 http://archive.ubuntu.com/ubuntu focal/universe amd64 libfile-sharedir-perl all 1.116-2 [14.7 kB]
+[33m70% [128 libfile-sharedir-perl 10.0 kB/14.[0m[33m70% [Working]                1194 kB/s 17s[0m                                          Get:129 http://archive.ubuntu.com/ubuntu focal/main amd64 libb-hooks-op-check-perl amd64 0.22-1build2 [10.2 kB]
+[33m70% [129 libb-hooks-op-check-perl 5315 B/1[0m[33m70% [Working]                1194 kB/s 17s[0m                                          Get:130 http://archive.ubuntu.com/ubuntu focal/main amd64 libdynaloader-functions-perl all 0.003-1 [11.9 kB]
+[33m70% [130 libdynaloader-functions-perl 6414[0m[33m70% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:131 http://archive.ubuntu.com/ubuntu focal/main amd64 libdevel-callchecker-perl amd64 0.008-1ubuntu1 [14.5 kB]
+[33m70% [131 libdevel-callchecker-perl 13.5 kB[0m[33m71% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:132 http://archive.ubuntu.com/ubuntu focal/main amd64 libparams-classify-perl amd64 0.015-1build2 [21.1 kB]
+[33m71% [132 libparams-classify-perl 49 B/21.1[0m[33m71% [Working]                1194 kB/s 17s[0m[33m71% [Waiting for headers]    1194 kB/s 17s[0m                                          Get:133 http://archive.ubuntu.com/ubuntu focal/main amd64 libmodule-runtime-perl all 0.016-1 [16.2 kB]
+[33m71% [133 libmodule-runtime-perl 12.6 kB/16[0m[33m71% [Working]            263 kB/s 1min 20s[0m                                          Get:134 http://archive.ubuntu.com/ubuntu focal/main amd64 libmodule-implementation-perl all 0.09-1 [12.2 kB]
+[33m71% [134 libmodule-implementation-perl 229[0m[33m                                          71% [Waiting for headers][0m                         Get:135 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-exporter-progressive-perl all 0.001013-1 [6784 B]
+[33m71% [135 libsub-exporter-progressive-perl [0m[33m                                          71% [Waiting for headers][0m                         Get:136 http://archive.ubuntu.com/ubuntu focal/main amd64 libvariable-magic-perl amd64 0.62-1build2 [34.4 kB]
+[33m71% [136 libvariable-magic-perl 814 B/34.4[0m[33m                                          71% [Waiting for headers][0m                         Get:137 http://archive.ubuntu.com/ubuntu focal/main amd64 libb-hooks-endofscope-perl all 0.24-1 [16.8 kB]
+[33m71% [137 libb-hooks-endofscope-perl 869 B/[0m[33m                                          71% [Waiting for headers][0m                         Get:138 http://archive.ubuntu.com/ubuntu focal/main amd64 libpackage-stash-perl all 0.38-1 [19.1 kB]
+[33m71% [138 libpackage-stash-perl 504 B/19.1 [0m[33m                                          71% [Waiting for headers][0m                         Get:139 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-identify-perl amd64 0.14-1build2 [10.7 kB]
+[33m71% [139 libsub-identify-perl 1775 B/10.7 [0m[33m                                          71% [Waiting for headers][0m                         Get:140 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-name-perl amd64 0.26-1 [11.5 kB]
+[33m71% [140 libsub-name-perl 6290 B/11.5 kB 5[0m[33m                                          71% [Waiting for headers][0m                         Get:141 http://archive.ubuntu.com/ubuntu focal/main amd64 libnamespace-clean-perl all 0.27-1 [13.6 kB]
+[33m71% [141 libnamespace-clean-perl 2189 B/13[0m[33m                                          72% [Waiting for headers][0m                         Get:142 http://archive.ubuntu.com/ubuntu focal/universe amd64 libnamespace-autoclean-perl all 0.29-1 [12.5 kB]
+[33m72% [142 libnamespace-autoclean-perl 3796 [0m[33m                                          72% [Waiting for headers][0m                         Get:143 http://archive.ubuntu.com/ubuntu focal/main amd64 libparams-util-perl amd64 1.07-3build5 [19.7 kB]
+[33m72% [143 libparams-util-perl 9032 B/19.7 k[0m[33m72% [Connecting to archive.ubuntu.com (91.[0m[33m                                          72% [Waiting for headers][0m                         Get:144 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-install-perl all 0.928-1 [10.5 kB]
+[33m72% [144 libsub-install-perl 10.5 kB/10.5 [0m[33m72% [Working]            263 kB/s 1min 19s[0m                                          Get:145 http://archive.ubuntu.com/ubuntu focal/main amd64 libdata-optlist-perl all 0.110-1 [9956 B]
+[33m72% [145 libdata-optlist-perl 1008 B/9956 [0m[33m                                          72% [Waiting for headers][0m                         Get:146 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-exporter-perl all 0.987-1 [44.9 kB]
+[33m72% [146 libsub-exporter-perl 1075 B/44.9 [0m[33m72% [146 libsub-exporter-perl 26.8 kB/44.9[0m                                          Get:147 http://archive.ubuntu.com/ubuntu focal/universe amd64 libeval-closure-perl all 0.14-1 [10.3 kB]
+[33m72% [147 libeval-closure-perl 10.3 kB/10.3[0m                                          Get:148 http://archive.ubuntu.com/ubuntu focal/main amd64 libclass-data-inheritable-perl all 0.08-3 [8084 B]
+                                          Get:149 http://archive.ubuntu.com/ubuntu focal/main amd64 libdevel-stacktrace-perl all 2.0400-1 [22.7 kB]
+[33m72% [149 libdevel-stacktrace-perl 22.7 kB/[0m                                          Get:150 http://archive.ubuntu.com/ubuntu focal/main amd64 libexception-class-perl all 1.44-1 [25.9 kB]
+[33m72% [150 libexception-class-perl 2910 B/25[0m[33m                                          73% [Waiting for headers][0m                         Get:151 http://archive.ubuntu.com/ubuntu focal/universe amd64 libparams-validationcompiler-perl all 0.30-1 [28.9 kB]
+[33m73% [151 libparams-validationcompiler-perl[0m[33m                                          73% [Waiting for headers][0m                         Get:152 http://archive.ubuntu.com/ubuntu focal/universe amd64 libalgorithm-c3-perl all 0.10-1 [11.3 kB]
+[33m73% [152 libalgorithm-c3-perl 364 B/11.3 k[0m[33m                                          73% [Waiting for headers][0m                         Get:153 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclass-c3-perl all 0.34-1 [18.9 kB]
+[33m73% [153 libclass-c3-perl 415 B/18.9 kB 2%[0m[33m                                          73% [Waiting for headers][0m                         Get:154 http://archive.ubuntu.com/ubuntu focal/universe amd64 libmro-compat-perl all 0.13-1 [11.2 kB]
+[33m73% [154 libmro-compat-perl 1871 B/11.2 kB[0m[33m73% [Working]            263 kB/s 1min 18s[0m[33m                                          73% [Waiting for headers][0m                         Get:155 http://archive.ubuntu.com/ubuntu focal/main amd64 libclass-method-modifiers-perl all 2.13-1 [16.2 kB]
+[33m73% [155 libclass-method-modifiers-perl 12[0m[33m73% [Working]            263 kB/s 1min 18s[0m                                          Get:156 http://archive.ubuntu.com/ubuntu focal/main amd64 librole-tiny-perl all 2.001004-1 [16.5 kB]
+[33m73% [156 librole-tiny-perl 1007 B/16.5 kB [0m[33m                                          73% [Waiting for headers][0m                         Get:157 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-quote-perl all 2.006006-1 [19.5 kB]
+[33m73% [157 libsub-quote-perl 922 B/19.5 kB 5[0m[33m                                          73% [Waiting for headers][0m                         Get:158 http://archive.ubuntu.com/ubuntu focal/universe amd64 libxstring-perl amd64 0.002-2 [7276 B]
+[33m73% [158 libxstring-perl 474 B/7276 B 7%][0m[33m                                         73% [Waiting for headers][0m                         Get:159 http://archive.ubuntu.com/ubuntu focal/universe amd64 libspecio-perl all 0.45-1 [138 kB]
+[33m73% [159 libspecio-perl 643 B/138 kB 0%][0m[33m73% [159 libspecio-perl 131 kB/138 kB 95%][0m[33m                                          74% [Waiting for headers][0m                         Get:160 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-locale-perl all 1:1.25-1 [2357 kB]
+[33m74% [160 libdatetime-locale-perl 58 B/2357[0m[33m74% [160 libdatetime-locale-perl 502 kB/23[0m[33m76% [160 libdatetime-locale-perl 2309 kB/2[0m[33m76% [Waiting for headers]     450 kB/s 40s[0m                                          Get:161 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclass-singleton-perl all 1.5-1 [13.0 kB]
+[33m76% [161 libclass-singleton-perl 13.0 kB/1[0m                                          Get:162 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-timezone-perl all 1:2.38-1+2019c [255 kB]
+[33m76% [162 libdatetime-timezone-perl 12.0 kB[0m[33m76% [Waiting for headers]     450 kB/s 39s[0m                                          Get:163 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-perl amd64 2:1.51-1build1 [92.6 kB]
+[33m76% [163 libdatetime-perl 6916 B/92.6 kB 7[0m[33m76% [Waiting for headers]     450 kB/s 39s[0m                                          Get:164 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-format-strptime-perl all 1.7600-1 [27.7 kB]
+[33m76% [164 libdatetime-format-strptime-perl [0m[33m77% [Waiting for headers]     450 kB/s 39s[0m                                          Get:165 http://archive.ubuntu.com/ubuntu focal/main amd64 libparams-validate-perl amd64 1.29-3 [52.7 kB]
+[33m77% [165 libparams-validate-perl 16.1 kB/5[0m[33m77% [Connecting to archive.ubuntu.com (91.[0m[33m77% [Waiting for headers]     450 kB/s 39s[0m                                          Get:166 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-format-builder-perl all 0.8200-1 [62.4 kB]
+[33m77% [166 libdatetime-format-builder-perl 1[0m[33m77% [166 libdatetime-format-builder-perl 3[0m[33m77% [Working]                 450 kB/s 39s[0m                                          Get:167 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdatetime-format-iso8601-perl all 0.08-2 [14.6 kB]
+[33m77% [167 libdatetime-format-iso8601-perl 4[0m[33m77% [Waiting for headers]     450 kB/s 39s[0m                                          Ign:168 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-mediawiki all 1:2.25.1-1ubuntu3.8
+[33m77% [Waiting for headers]     450 kB/s 39s[0m                                          Get:169 http://archive.ubuntu.com/ubuntu focal/universe amd64 libserf-1-1 amd64 1.3.9-8build1 [45.2 kB]
+[33m77% [Connecting to security.ubuntu.com (91[0m[33m77% [Connecting to security.ubuntu.com (91[0m                                          Get:170 http://archive.ubuntu.com/ubuntu focal/universe amd64 libutf8proc2 amd64 2.5.0-1 [50.0 kB]
+[33m77% [Connecting to security.ubuntu.com (91[0m[33m77% [Connecting to security.ubuntu.com (91[0m                                          Get:171 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libsvn1 amd64 1.13.0-3ubuntu0.2 [1260 kB]
+[33m77% [Connecting to security.ubuntu.com (91[0m[33m77% [Connecting to security.ubuntu.com (18[0m[33m78% [Connecting to security.ubuntu.com (91.189.91.139)] [Waiting for headers]                                                                              450 kB/s 36s[0m                                                                                                                                                                       Get:172 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 libsvn-perl amd64 1.13.0-3ubuntu0.2 [937 kB]
+[33m78% [Connecting to security.ubuntu.com (91.189.91.139)] [172 libsvn-perl 16.4 kB/937 kB 2%]                                                                450 kB/s 36s[0m[33m79% [Connecting to security.ubuntu.com (91.189.91.38)] [Waiting for headers]                                                                               450 kB/s 34s[0m                                                                                                                                                                       Get:173 http://archive.ubuntu.com/ubuntu focal/main amd64 libyaml-perl all 1.30-1 [58.2 kB]
+[33m79% [Connecting to security.ubuntu.com (91.189.91.38)] [173 libyaml-perl 7635 B/58.2 kB 13%]                                                               450 kB/s 34s[0m[33m80% [Connecting to security.ubuntu.com (91.189.91.38)] [Waiting for headers]                                                                               450 kB/s 33s[0m                                                                                                                                                                       Get:174 http://archive.ubuntu.com/ubuntu focal/main amd64 libterm-readkey-perl amd64 2.38-1build1 [24.6 kB]
+[33m80% [Connecting to security.ubuntu.com (91.189.91.38)] [174 libterm-readkey-perl 11.0 kB/24.6 kB 45%]                                                      450 kB/s 33s[0m                                                                                                                                                                       Ign:175 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-svn all 1:2.25.1-1ubuntu3.8
+                                                                                                                                                                       Ign:176 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-email all 1:2.25.1-1ubuntu3.8
+[33m80% [Connecting to security.ubuntu.com (91.189.91.38)]                                                                                                     450 kB/s 33s[0m                                                                                                                                                                       Err:168 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-mediawiki all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m80% [Waiting for headers]                                                                                                                                  450 kB/s 33s[0m                                                                                                                                                                       Get:177 http://archive.ubuntu.com/ubuntu focal/main amd64 libtcl8.6 amd64 8.6.10+dfsg-1 [902 kB]
+[33m80% [Waiting for headers] [177 libtcl8.6 13.0 kB/902 kB 1%]                                                                                                450 kB/s 33s[0m                                                                                                                                                                       Err:175 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-svn all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m80% [177 libtcl8.6 13.0 kB/902 kB 1%]                                                                                                                      450 kB/s 33s[0m                                                                                                                                                                       Err:176 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-email all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m80% [177 libtcl8.6 39.4 kB/902 kB 4%]                                                                                                                      450 kB/s 33s[0m[33m80% [177 libtcl8.6 135 kB/902 kB 15%]                                                                                                                      450 kB/s 33s[0m[33m80% [177 libtcl8.6 156 kB/902 kB 17%]                                                                                                                      450 kB/s 33s[0m[33m80% [177 libtcl8.6 404 kB/902 kB 45%]                                                                                                                      450 kB/s 33s[0m[33m80% [177 libtcl8.6 896 kB/902 kB 99%]                                                                                                                      605 kB/s 23s[0m[33m81% [Working]                                                                                                                                              605 kB/s 23s[0m                                                                                                                                                                       Get:178 http://archive.ubuntu.com/ubuntu focal/main amd64 libxss1 amd64 1:1.2.3-1 [8140 B]
+[33m81% [178 libxss1 8140 B/8140 B 100%]                                                                                                                       605 kB/s 23s[0m                                                                                                                                                                       Get:179 http://archive.ubuntu.com/ubuntu focal/main amd64 libtk8.6 amd64 8.6.10-1 [714 kB]
+[33m81% [179 libtk8.6 11.2 kB/714 kB 2%]                                                                                                                       605 kB/s 23s[0m[33m81% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Get:180 http://archive.ubuntu.com/ubuntu focal/main amd64 tk8.6 amd64 8.6.10-1 [12.5 kB]
+[33m82% [Working]                                                                                                                                              605 kB/s 22s[0m                                                                                                                                                                       Get:181 http://archive.ubuntu.com/ubuntu focal/main amd64 tcl8.6 amd64 8.6.10+dfsg-1 [14.8 kB]
+[33m82% [181 tcl8.6 4843 B/14.8 kB 33%]                                                                                                                        605 kB/s 22s[0m[33m82% [Working]                                                                                                                                              605 kB/s 22s[0m                                                                                                                                                                       Get:182 http://archive.ubuntu.com/ubuntu focal/universe amd64 tcl amd64 8.6.9+1 [5112 B]
+[33m82% [182 tcl 5112 B/5112 B 100%]                                                                                                                           605 kB/s 22s[0m[33m82% [Working]                                                                                                                                              605 kB/s 22s[0m                                                                                                                                                                       Get:183 http://archive.ubuntu.com/ubuntu focal/universe amd64 tk amd64 8.6.9+1 [3240 B]
+[33m82% [183 tk 0 B/3240 B 0%]                                                                                                                                 605 kB/s 22s[0m[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Ign:184 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-gui all 1:2.25.1-1ubuntu3.8
+                                                                                                                                                                       Ign:185 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 gitk all 1:2.25.1-1ubuntu3.8
+[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Get:186 http://archive.ubuntu.com/ubuntu focal/main amd64 libcgi-pm-perl all 4.46-1 [186 kB]
+[33m82% [186 libcgi-pm-perl 1187 B/186 kB 1%]                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Ign:187 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 gitweb all 1:2.25.1-1ubuntu3.8
+[33m82% [Connecting to security.ubuntu.com (185.125.190.39)]                                                                                                   605 kB/s 22s[0m                                                                                                                                                                       Err:184 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-gui all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m82% [Connecting to archive.ubuntu.com (185.125.190.39)]                                                                                                    605 kB/s 22s[0m                                                                                                                                                                       Err:185 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 gitk all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Ign:188 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-all all 1:2.25.1-1ubuntu3.8
+[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Err:187 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 gitweb all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Err:188 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-all all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Get:189 http://archive.ubuntu.com/ubuntu focal/universe amd64 runit amd64 2.1.2-9.2ubuntu1 [95.9 kB]
+[33m82% [189 runit 11.3 kB/95.9 kB 12%]                                                                                                                        605 kB/s 22s[0m[33m82% [189 runit 42.2 kB/95.9 kB 44%]                                                                                                                        605 kB/s 22s[0m[33m82% [Waiting for headers]                                                                                                                                  605 kB/s 22s[0m                                                                                                                                                                       Ign:190 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 git-daemon-run all 1:2.25.1-1ubuntu3.8
+                                                                                                                                                                       Get:191 http://archive.ubuntu.com/ubuntu focal/universe amd64 gsfonts all 1:8.11+urwcyr1.0.7~pre44-4.4 [3120 kB]
+[33m82% [191 gsfonts 3560 B/3120 kB 0%]                                                                                                                        605 kB/s 22s[0m                                                                                                                                                                       Err:190 http://security.ubuntu.com/ubuntu focal-updates/universe amd64 git-daemon-run all 1:2.25.1-1ubuntu3.8
+  404  Not Found [IP: 91.189.91.38 80]
+[33m82% [191 gsfonts 57.7 kB/3120 kB 2%]                                                                                                                       605 kB/s 21s[0m[33m83% [191 gsfonts 400 kB/3120 kB 13%]                                                                                                                       605 kB/s 21s[0m[33m84% [191 gsfonts 1482 kB/3120 kB 48%]                                                                                                                      605 kB/s 19s[0m[33m85% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:192 http://archive.ubuntu.com/ubuntu focal/main amd64 libfcgi-perl amd64 0.79-1 [33.1 kB]
+[33m85% [192 libfcgi-perl 7875 B/33.1 kB 24%]                                                                                                                  605 kB/s 16s[0m[33m85% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:193 http://archive.ubuntu.com/ubuntu focal/main amd64 libcgi-fast-perl all 1:2.15-1 [10.5 kB]
+[33m85% [193 libcgi-fast-perl 10.5 kB/10.5 kB 100%]                                                                                                            605 kB/s 16s[0m[33m85% [Working]                                                                                                                                              605 kB/s 16s[0m                                                                                                                                                                       Get:194 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclass-c3-xs-perl amd64 0.14-1build5 [15.5 kB]
+[33m85% [194 libclass-c3-xs-perl 4917 B/15.5 kB 32%]                                                                                                           605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:195 http://archive.ubuntu.com/ubuntu focal/main amd64 libclass-xsaccessor-perl amd64 1.19-3build3 [33.6 kB]
+[33m86% [195 libclass-xsaccessor-perl 9732 B/33.6 kB 29%]                                                                                                      605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:196 http://archive.ubuntu.com/ubuntu focal/main amd64 libcommon-sense-perl amd64 3.74-2build6 [20.1 kB]
+[33m86% [196 libcommon-sense-perl 13.2 kB/20.1 kB 66%]                                                                                                         605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:197 http://archive.ubuntu.com/ubuntu focal/main amd64 libdata-dump-perl all 1.23-1 [27.0 kB]
+[33m86% [197 libdata-dump-perl 17.3 kB/27.0 kB 64%]                                                                                                            605 kB/s 16s[0m[33m86% [Working]                                                                                                                                              605 kB/s 16s[0m                                                                                                                                                                       Get:198 http://archive.ubuntu.com/ubuntu focal/universe amd64 libpadwalker-perl amd64 2.3-1build2 [15.2 kB]
+[33m86% [198 libpadwalker-perl 4132 B/15.2 kB 27%]                                                                                                             605 kB/s 16s[0m[33m86% [Working]                                                                                                                                              605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:199 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdevel-caller-perl amd64 2.06-2build2 [10.6 kB]
+[33m86% [199 libdevel-caller-perl 10.6 kB/10.6 kB 100%]                                                                                                        605 kB/s 16s[0m[33m86% [Working]                                                                                                                                              605 kB/s 16s[0m                                                                                                                                                                       Get:200 http://archive.ubuntu.com/ubuntu focal/universe amd64 libdevel-lexalias-perl amd64 0.05-2build2 [8788 B]
+[33m86% [200 libdevel-lexalias-perl 2296 B/8788 B 26%]                                                                                                         605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:201 http://archive.ubuntu.com/ubuntu focal/main amd64 libdigest-bubblebabble-perl all 0.02-2 [7908 B]
+[33m86% [201 libdigest-bubblebabble-perl 956 B/7908 B 12%]                                                                                                     605 kB/s 16s[0m[33m86% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:202 http://archive.ubuntu.com/ubuntu focal/main amd64 libdigest-hmac-perl all 1.03+dfsg-2 [10.3 kB]
+[33m86% [202 libdigest-hmac-perl 1783 B/10.3 kB 17%]                                                                                                           605 kB/s 16s[0m                                                                                                                                                                       Get:203 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-smtp-ssl-perl all 1.04-1 [5948 B]
+[33m86% [203 libnet-smtp-ssl-perl 1459 B/5948 B 25%]                                                                                                           605 kB/s 16s[0m[33m86% [Working]                                                                                                                                              605 kB/s 16s[0m                                                                                                                                                                       Get:204 http://archive.ubuntu.com/ubuntu focal/main amd64 libmailtools-perl all 2.21-1 [80.7 kB]
+[33m86% [204 libmailtools-perl 381 B/80.7 kB 0%]                                                                                                               605 kB/s 16s[0m[33m86% [204 libmailtools-perl 10.7 kB/80.7 kB 13%]                                                                                                            605 kB/s 16s[0m[33m87% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:205 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-ip-perl all 1.26-2 [27.4 kB]
+[33m87% [205 libnet-ip-perl 1848 B/27.4 kB 7%]                                                                                                                 605 kB/s 16s[0m[33m87% [Waiting for headers]                                                                                                                                  605 kB/s 16s[0m                                                                                                                                                                       Get:206 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-dns-perl all 1.22-1 [336 kB]
+[33m87% [206 libnet-dns-perl 3769 B/336 kB 1%]                                                                                                                 605 kB/s 16s[0m[33m87% [206 libnet-dns-perl 182 kB/336 kB 54%]                                                                                                                744 kB/s 13s[0m[33m87% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:207 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-domain-tld-perl all 1.75-1 [29.1 kB]
+[33m87% [207 libnet-domain-tld-perl 12.3 kB/29.1 kB 42%]                                                                                                       744 kB/s 12s[0m                                                                                                                                                                       Get:208 http://archive.ubuntu.com/ubuntu focal/main amd64 libemail-valid-perl all 1.202-1 [16.3 kB]
+[33m87% [208 libemail-valid-perl 8709 B/16.3 kB 53%]                                                                                                           744 kB/s 12s[0m[33m87% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:209 http://archive.ubuntu.com/ubuntu focal/main amd64 libfont-afm-perl all 1.20-2 [13.2 kB]
+[33m87% [209 libfont-afm-perl 2381 B/13.2 kB 18%]                                                                                                              744 kB/s 12s[0m[33m87% [Working]                                                                                                                                              744 kB/s 12s[0m[33m87% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:210 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdk-pixbuf2.0-bin amd64 2.40.0+dfsg-3ubuntu0.4 [14.1 kB]
+[33m87% [210 libgdk-pixbuf2.0-bin 4096 B/14.1 kB 29%]                                                                                                          744 kB/s 12s[0m[33m88% [Working]                                                                                                                                              744 kB/s 12s[0m                                                                                                                                                                       Get:211 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-bin amd64 3.24.20-0ubuntu1.1 [61.9 kB]
+[33m88% [211 libgtk-3-bin 3583 B/61.9 kB 6%]                                                                                                                   744 kB/s 12s[0m[33m88% [211 libgtk-3-bin 60.3 kB/61.9 kB 97%]                                                                                                                 744 kB/s 12s[0m[33m88% [Working]                                                                                                                                              744 kB/s 12s[0m                                                                                                                                                                       Get:212 http://archive.ubuntu.com/ubuntu focal/main amd64 libhtml-form-perl all 6.07-1 [22.2 kB]
+[33m88% [212 libhtml-form-perl 666 B/22.2 kB 3%]                                                                                                               744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:213 http://archive.ubuntu.com/ubuntu focal/main amd64 libhtml-format-perl all 2.12-1 [41.3 kB]
+[33m88% [213 libhtml-format-perl 2617 B/41.3 kB 6%]                                                                                                            744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:214 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libhttp-daemon-perl all 6.06-1ubuntu0.1 [22.0 kB]
+[33m88% [214 libhttp-daemon-perl 7440 B/22.0 kB 34%]                                                                                                           744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:215 http://archive.ubuntu.com/ubuntu focal/main amd64 libtypes-serialiser-perl all 1.0-1 [12.1 kB]
+[33m88% [215 libtypes-serialiser-perl 647 B/12.1 kB 5%]                                                                                                        744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:216 http://archive.ubuntu.com/ubuntu focal/main amd64 libjson-xs-perl amd64 4.020-1build1 [83.7 kB]
+[33m88% [216 libjson-xs-perl 3715 B/83.7 kB 4%]                                                                                                                744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:217 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-dns-sec-perl amd64 1.15-1 [44.6 kB]
+[33m88% [217 libnet-dns-sec-perl 8578 B/44.6 kB 19%]                                                                                                           744 kB/s 12s[0m[33m88% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:218 http://archive.ubuntu.com/ubuntu focal/main amd64 libnet-libidn-perl amd64 0.12.ds-3build2 [17.3 kB]
+[33m88% [218 libnet-libidn-perl 10.0 kB/17.3 kB 58%]                                                                                                           744 kB/s 12s[0m[33m89% [Working]                                                                                                                                              744 kB/s 12s[0m                                                                                                                                                                       Get:219 http://archive.ubuntu.com/ubuntu focal/main amd64 libpackage-stash-xs-perl amd64 0.29-1build1 [18.4 kB]
+[33m89% [219 libpackage-stash-xs-perl 5336 B/18.4 kB 29%]                                                                                                      744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:220 http://archive.ubuntu.com/ubuntu focal/main amd64 libpaper-utils amd64 1.1.28 [8400 B]
+[33m89% [Working]                                                                                                                                              744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:221 http://archive.ubuntu.com/ubuntu focal/main amd64 libperl4-corelibs-perl all 0.004-2 [37.4 kB]
+[33m89% [221 libperl4-corelibs-perl 12.6 kB/37.4 kB 34%]                                                                                                       744 kB/s 12s[0m[33m89% [Working]                                                                                                                                              744 kB/s 12s[0m                                                                                                                                                                       Get:222 http://archive.ubuntu.com/ubuntu focal/main amd64 libreadonly-perl all 2.050-2 [19.9 kB]
+[33m89% [222 libreadonly-perl 2295 B/19.9 kB 12%]                                                                                                              744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:223 http://archive.ubuntu.com/ubuntu focal/main amd64 libref-util-perl all 0.204-1 [15.0 kB]
+[33m89% [223 libref-util-perl 1454 B/15.0 kB 10%]                                                                                                              744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:224 http://archive.ubuntu.com/ubuntu focal/main amd64 libref-util-xs-perl amd64 0.117-1build2 [12.0 kB]
+[33m89% [224 libref-util-xs-perl 12.0 kB/12.0 kB 100%]                                                                                                         744 kB/s 12s[0m[33m89% [Working]                                                                                                                                              744 kB/s 12s[0m                                                                                                                                                                       Get:225 http://archive.ubuntu.com/ubuntu focal/main amd64 libyaml-libyaml-perl amd64 0.81+repack-1 [28.5 kB]
+[33m89% [225 libyaml-libyaml-perl 6056 B/28.5 kB 21%]                                                                                                          744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:226 http://archive.ubuntu.com/ubuntu focal/main amd64 ssl-cert all 1.0.39 [17.0 kB]
+[33m89% [226 ssl-cert 3067 B/17.0 kB 18%]                                                                                                                      744 kB/s 12s[0m[33m89% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:227 http://archive.ubuntu.com/ubuntu focal/main amd64 xbitmaps all 1.1.1-2 [28.1 kB]
+[33m89% [227 xbitmaps 16.7 kB/28.1 kB 60%]                                                                                                                     744 kB/s 12s[0m[33m90% [Waiting for headers]                                                                                                                                  744 kB/s 12s[0m                                                                                                                                                                       Get:228 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 xterm amd64 353-1ubuntu1.20.04.2 [765 kB]
+[33m90% [228 xterm 3845 B/765 kB 1%]                                                                                                                           744 kB/s 12s[0m[33m90% [228 xterm 238 kB/765 kB 31%]                                                                                                                          744 kB/s 11s[0m[33m90% [228 xterm 321 kB/765 kB 42%]                                                                                                                          744 kB/s 11s[0m[33m90% [Waiting for headers]                                                                                                                                  247 kB/s 33s[0m                                                                                                                                                                       Get:229 http://archive.ubuntu.com/ubuntu focal/main amd64 libauthen-sasl-perl all 2.1600-1 [48.7 kB]
+[33m90% [229 libauthen-sasl-perl 48.7 kB/48.7 kB 100%]                                                                                                         247 kB/s 33s[0m[33m90% [Working]                                                                                                                                              247 kB/s 33s[0m                                                                                                                                                                       Fetched 77.7 MB in 1min 14s (1045 kB/s)
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-bin_2.4.41-4ubuntu3.13_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-data_2.4.41-4ubuntu3.13_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-utils_2.4.41-4ubuntu3.13_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2_2.4.41-4ubuntu3.13_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/t/tiff/libtiff5_4.1.0+git191117-2ubuntu0.20.04.7_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/i/imagemagick/imagemagick-6-common_6.9.10.23+dfsg-2.1ubuntu11.4_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/i/imagemagick/libmagickcore-6.q16-6_6.9.10.23+dfsg-2.1ubuntu11.4_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/i/imagemagick/libmagickwand-6.q16-6_6.9.10.23+dfsg-2.1ubuntu11.4_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/g/ghostscript/libgs9-common_9.50~dfsg-5ubuntu4.6_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/g/ghostscript/libgs9_9.50~dfsg-5ubuntu4.6_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript_9.50~dfsg-5ubuntu4.6_amd64.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/g/git/git-doc_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-el_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-cvs_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-mediawiki_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-svn_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-email_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-gui_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/gitk_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/gitweb_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-all_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/universe/g/git/git-daemon-run_2.25.1-1ubuntu3.8_all.deb  404  Not Found [IP: 91.189.91.38 80][0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ sudo apt install git-all[K[K[K[K[K[K[Kinstall-info
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+install-info is already the newest version (6.7.0.dfsg.2-5).
+install-info set to manually installed.
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ git --version
+git version 2.25.1
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ git config --list --show-origin
+[?1h=file:/home/shreelaxmi/.gitconfig        user.email=shreelaxmi.bhatt@tigeranalytics.com[m
+file:/home/shreelaxmi/.gitconfig        user.name=shreelaxmib[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ gt[Kit config user.name [1@-[1@-[1@g[1@l[1@o[1@b[1@a[1@l[1@ [C[C[C[C[C[C[C[C[C[C " " [1@s[1P[1@s[1@h[1@r[1@r[1@e[1@1[1P[1P[1P[1@e[1@e[1@`[1P[1@1[1@a[1@k[1@s[1@h[1@m[1@i
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ git config --global user.name "shree1akshmi" [14Plist --show-origin
+[?1h=file:/home/shreelaxmi/.gitconfig        user.email=shreelaxmi.bhatt@tigeranalytics.com[m
+file:/home/shreelaxmi/.gitconfig        user.name=shree1akshmi[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ git help config
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                                                Git Manual                                                               GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option which can occur on multiple lines, a POSIX[m
+       regexp [1mvalue_regex[0m needs to be given. Only the existing values that match the regexp are updated or unset. If you want to handle the lines that do [1mnot[0m match[m
+       the regex, just prepend a single exclamation mark in front (see also the section called “EXAMPLES”).[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are canonicalize-able under the given <type>. If no [1m--type=<type>[0m[m
+       is given, no canonicalization will be performed. Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[m
+       When reading, the values are read from the system, global and repository local configuration files by default, and options [1m--system[0m, [1m--global[0m, [1m--local[0m,[m
+       [1m--worktree[0m and [1m--file[0m [1m<filename>[0m can be used to tell the command to read from only that location (see the section called “FILES”).[m
+[m
+       When writing, the new value is written to the repository local configuration file by default, and options [1m--system[0m, [1m--global[0m, [1m--worktree[0m, [1m--file[0m [1m<filename>[0m[m
+       can be used to tell the command to write to that location (you can say [1m--local[0m but that is the default).[m
+[m
+       This command will fail with non-zero status upon error. Some exit codes are:[m
+[m
+       •   The section or key is invalid (ret=1),[m
+[m
+       •   no section or name was provided (ret=2),[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ git add -h
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd /home/user[K[K[K[KmcA[K[K[K
+(base) ]0;shreelaxmi@TIGER02099: /home[01;32mshreelaxmi@TIGER02099[00m:[01;34m/home[00m$ ls
+[0m[01;34mshreelaxmi[0m
+(base) ]0;shreelaxmi@TIGER02099: /home[01;32mshreelaxmi@TIGER02099[00m:[01;34m/home[00m$ cd shreelaxmi/
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ ls
+Miniconda3-latest-Linux-x86_64.sh  [0m[01;34mgit_proj[0m  [01;34mminiconda3[0m  my_git_session  my_unix_session_1
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd git_proj/
+(base) ]0;shreelaxmi@TIGER02099: ~/git_proj[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/git_proj[00m$ ls
+(base) ]0;shreelaxmi@TIGER02099: ~/git_proj[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/git_proj[00m$ cd ../
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ sudo rm git_proj/
+rm: cannot remove 'git_proj/': Is a directory
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ sudo rm git_proj/-git_proj/rgit_proj/ git_proj/
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ sudo [K[K[K[K[Kmkdir tamlep
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd tamlp[Kep
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git init
+Initialized empty Git repository in /home/shreelaxmi/tamlep/.git/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git clone 2~[K[K[K 2~[K[K2~[K[Khttps://github.com/shree1akshmi/TA-MLE
+Cloning into 'TA-MLE'...
+warning: You appear to have cloned an empty repository.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ ls
+[0m[01;34mTA-MLE[0m
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mTA-MLE/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ echo 'My Project' > README
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ GIT ST[K[K[K[K[K[Kgit stt[Katus
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+	[31mTA-MLE/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git add README [K
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git add README[4Pstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mTA-MLE/[m
+
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git add CONTRIBUTING.md
+fatal: pathspec 'CONTRIBUTING.md' did not match any files
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ cat gitignore.gitignore
+cat: .gitignore: No such file or directory
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ nano .gitignore
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   .gitignore                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2d*[?12l[?25h[?25l.[?12l[?25h[?25l[[?12l[?25h[?25lo[?12l[?25h[?25la[?12l[?25h[?25l][?12l[?25h[?25l[3d[?12l[?25h[?25l*[?12l[?25h[?25l~[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: .gitignore                                                                                                                                          [42;1H(B[m[42;31H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 2 lines ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[3d*~[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ nano .gitignore[1Pcat[C[C[C[C[C[C[C[C[C[C[C
+*.[oa]
+*~
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ less Readm[K[K[K[KEADME 
+[?1049h[22;0;0t[?1h=My Project
+[7mREADME (END)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ echo 'Js[Kust updating and checking' >> README
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ echo 'Just updating and checking' >> README[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cless README [K
+[?1049h[22;0;0t[?1h=My Project
+Just updating and checking
+[7mREADME (END)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git diff
+[?1h=[1mdiff --git a/README b/README[m[m
+[1mindex 56266d3..5a3d12f 100644[m[m
+[1m--- a/README[m[m
+[1m+++ b/README[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My Project[m[m
+[32m+[m[32mJust updating and checking[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git c[Kadd README 
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ ls
+README  [0m[01;34mTA-MLE[0m
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git o[Kcommit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;76H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                  /home/shreelaxmi/tamlep/.git/COMMIT_EDITMSG                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#       new file:   README[12d#[13d# Untracked files:[14d#       .gitignore[15d#       TA-MLE/[16d#[2d[39m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2d[36m#[39m(B[m[?12l[?25h[?25l[K[?12l[?25h[?25lt[?12l[?25h[?25l[K[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[42d[K[2;23H[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: /home/shreelaxmi/tamlep/.git/COMMIT_EDITMSG                                                                                                         [42;1H(B[m[42;64H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 15 lines ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2;27H[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[K[master (root-commit) 5ed081f] initiating git with readme
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git mv README README.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ e[Kless README.md 
+[?1049h[22;0;0t[?1h=My Project
+Just updating and checking
+[7mREADME.md (END)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ sud[K[K[Kgit rm README.md [K[K[K[K
+fatal: pathspec 'README' did not match any files
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ ls
+README.md  [0m[01;34mTA-MLE[0m
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git add README.md 
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git commit -m "updated extes[Knsion for t[Kreadme file"
+[master 4f50e20] updated extension for readme file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename README => README.md (100%)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log
+[?1h=[33mcommit 4f50e207fa2f35c0ddf642d27bfdb3dfebd93832[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:17:19 2023 +0530[m
+[m
+    updated extension for readme file[m
+[m
+[33mcommit 5ed081fa2692c8777ade939aff5bfc7f9890865e[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:14:59 2023 +0530[m
+[m
+    initiating git with readme[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log -p 
+[?1h=[33mcommit 4f50e207fa2f35c0ddf642d27bfdb3dfebd93832[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:17:19 2023 +0530[m
+[m
+    updated extension for readme file[m
+[m
+[1mdiff --git a/README b/README.md[m[m
+[1msimilarity index 100%[m[m
+[1mrename from README[m[m
+[1mrename to README.md[m[m
+[m
+[33mcommit 5ed081fa2692c8777ade939aff5bfc7f9890865e[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:14:59 2023 +0530[m
+[m
+    initiating git with readme[m
+[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..5a3d12f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mJust updating and checking[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log -p 2
+fatal: ambiguous argument '2': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log -p 2[K-2
+[?1h=[33mcommit 4f50e207fa2f35c0ddf642d27bfdb3dfebd93832[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:17:19 2023 +0530[m
+[m
+    updated extension for readme file[m
+[m
+[1mdiff --git a/README b/README.md[m[m
+[1msimilarity index 100%[m[m
+[1mrename from README[m[m
+[1mrename to README.md[m[m
+[m
+[33mcommit 5ed081fa2692c8777ade939aff5bfc7f9890865e[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:14:59 2023 +0530[m
+[m
+    initiating git with readme[m
+[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..5a3d12f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mJust updating and checking[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log --stat
+[?1h=[33mcommit 4f50e207fa2f35c0ddf642d27bfdb3dfebd93832[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:17:19 2023 +0530[m
+[m
+    updated extension for readme file[m
+[m
+ README => README.md | 0[m
+ 1 file changed, 0 insertions(+), 0 deletions(-)[m
+[m
+[33mcommit 5ed081fa2692c8777ade939aff5bfc7f9890865e[m[m
+Author: shree1akshmi <shreelaxmi.bhatt@tigeranalytics.com>[m
+Date:   Tue Apr 18 07:14:59 2023 +0530[m
+[m
+    initiating git with readme[m
+[m
+ README | 2 [32m++[m[m
+ 1 file changed, 2 insertions(+)[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log --stat[K[K[K[Kpretty=oneline
+[?1h=[33m4f50e207fa2f35c0ddf642d27bfdb3dfebd93832[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m updated extension for readme file[m
+[33m5ed081fa2692c8777ade939aff5bfc7f9890865e[m initiating git with readme[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git log --pretty=oneline[K[K[K[K[K[K[Kformat:"%h - %an, %ar : %s"
+[?1h=4f50e20 - shree1akshmi, 3 minutes ago : updated extension for readme file[m
+5ed081f - shree1akshmi, 6 minutes ago : initiating git with readme[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git remote -v
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git tag
+[?1h=[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git tag -l
+[?1h=[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git add README test.rb LICENSE
+fatal: pathspec 'README' did not match any files
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git branch testing
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git lon [K[Kg --oneline --decorate
+[?1h=[33m4f50e20[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m updated extension for readme file[m
+[33m5ed081f[m initiating git with readme[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ gi[Kit chc[Keckout testing
+Switched to branch 'testing'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ nano test.rb
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                    test.rb                                                                               [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: test.rb                                                                                                                                             [42;1H(B[m[42;28H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2;21H[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git commit -m "made a chane[Kge"
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mTA-MLE/[m
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git status
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mTA-MLE/[m
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git statuscommit -m "made a change"[C[1@-[1@a[1@ 
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mTA-MLE/[m
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git checkout -b '[Knew_branch
+Switched to a new branch 'new_branch'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git status
+On branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mTA-MLE/[m
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git branch
+[?1h=  master[m[m
+* [32mnew_branch[m[m
+  testing[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git branch --merged
+[?1h=  master[m[m
+* [32mnew_branch[m[m
+  testing[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git branch --mergednmergedomerged-merged
+[?1h=[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git brnac[K[K[Kanch -d new_branch
+error: Cannot delete branch 'new_branch' checked out at '/home/shreelaxmi/tamlep'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git status
+On branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mTA-MLE/[m
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git checkout main[K[Kster
+Switched to branch 'master'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git checkout master[2Pin[7Pstatusbranch -d new_branch
+Deleted branch new_branch (was 4f50e20).
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git branch
+[?1h=* [32mmaster[m[m
+  testing[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git push -u ori[K[K[K[K[K[Korigin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git push origin master[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ checkout master[1@g[1@i[1@t[1@ 
+Already on 'master'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git push --set-upstream master master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ cd ../
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ ls
+Miniconda3-latest-Linux-x86_64.sh  [0m[01;34mminiconda3[0m  my_git_session  my_unix_session_1  [01;34mtamlep[0m
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd tamlep/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ ls
+README.md  [0m[01;34mTA-MLE[0m  test.rb
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ cd TA-MLE/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ ls
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git remote add origin git@github.com:shree1akshmi/TA-MLE.git
+fatal: remote origin already exists.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git remote add origin git@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pgit@github.com:shree1akshmi/TA-MLE.git[1Pit@github.com:shree1akshmi/TA-MLE.git[1Pit@github.com:shree1akshmi/TA-MLE.git[1Pt@github.com:shree1akshmi/TA-MLE.git[1P@github.com:shree1akshmi/TA-MLE.git[1Pgithub.com:shree1akshmi/TA-MLE.git[1Pithub.com:shree1akshmi/TA-MLE.git[1Pthub.com:shree1akshmi/TA-MLE.git[1Phub.com:shree1akshmi/TA-MLE.git[1Pub.com:shree1akshmi/TA-MLE.git[1Pb.com:shree1akshmi/TA-MLE.git[1P.com:shree1akshmi/TA-MLE.git[1Pcom:shree1akshmi/TA-MLE.git[1Pom:shree1akshmi/TA-MLE.git[1Pm:shree1akshmi/TA-MLE.git[1P:shree1akshmi/TA-MLE.git[1Pshree1akshmi/TA-MLE.git[1Phree1akshmi/TA-MLE.git[1Pree1akshmi/TA-MLE.git[1Pee1akshmi/TA-MLE.git[C[1P1akshmi/TA-MLE.git[1P1akshmi/TA-MLE.git[1Pakshmi/TA-MLE.git[1Pkshmi/TA-MLE.git[1Pshmi/TA-MLE.git[1Phmi/TA-MLE.git[1Pmi/TA-MLE.git[1Pi/TA-MLE.git[1P/TA-MLE.git[1PTA-MLE.git[1PA-MLE.git[1P-MLE.git[1PMLE.git[1PLE.git[1PE.git[1P.git[1Pgit[1Pit[1Pt[Kgit push origin master'[K
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/shree1akshmi/TA-MLE'
+[m(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git init
+Reinitialized existing Git repository in /home/shreelaxmi/tamlep/TA-MLE/.git/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ ls
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ lsgit initpush origin masterremote add origin git@github.com:shree1akshmi/TA-MLE.git/.git
+fatal: remote origin already exists.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ echo "#TA-MLE" > e[KREADMED[K.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ echo "#TA-MLE" > README.md[9Pgit add[C[C[C[C[C[C[C[C[C[C
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git commit -m "first commit"
+[master (root-commit) 5b35e56] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git branch -M main
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git status
+On branch main
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git remote add origin git@github.com:shree1akshmi/TA-MLE.git
+fatal: remote origin already exists.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git push -u origin main
+Username for 'https://github.com': Newjoinee@June28
+Password for 'https://Newjoinee@June28@github.com': 
+[1]+  Stopped                 git push -u origin main
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git push -u origin main
+Username for 'https://github.com': shreelakshmi
+Password for 'https://shreelakshmi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/shree1akshmi/TA-MLE/'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git push -u origin main[K[Kster
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/shree1akshmi/TA-MLE'
+[m(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git chek[Kckout master
+error: pathspec 'master' did not match any file(s) known to git
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git brna[K[Kanch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git push origin main
+Username for 'https://github.com': shreelaxmib .bhatt@tigeranalytics                          1akshmi
+Password for 'https://shree1akshmi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/shree1akshmi/TA-MLE/'
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ exit
+exit
+There are stopped jobs.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ cd ../../
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ clear
+[H[2J[3J(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ script -a ~/my_conda_session
+Script started, file is /home/shreelaxmi/my_conda_session
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda --version
+conda 4.12.0
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ | / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/shreelaxmi/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    setuptools-66.0.0          |   py39h06a4308_0         1.2 MB
+    ------------------------------------------------------------
+                                           Total:         1.2 MB
+
+The following packages will be UPDATED:
+
+  setuptools                          65.6.3-py39h06a4308_0 --> 66.0.0-py39h06a4308_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-66.0.0    | 1.2 MB    |                                                                                                                               |   0% setuptools-66.0.0    | 1.2 MB    | #6                                                                                                                            |   1% setuptools-66.0.0    | 1.2 MB    | #############3                                                                                                                |  11% setuptools-66.0.0    | 1.2 MB    | ####################################################################2                                                         |  55% setuptools-66.0.0    | 1.2 MB    | ############################################################################################################################# | 100% setuptools-66.0.0    | 1.2 MB    | ############################################################################################################################# | 100% 
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | done
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+WARNING: A conda environment already exists at '/home/shreelaxmi/miniconda3/envs/snowflakes'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - \ | done
+Solving environment: - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/shreelaxmi/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    setuptools-66.0.0          |  py311h06a4308_0         1.6 MB
+    ------------------------------------------------------------
+                                           Total:         1.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  biopython          pkgs/main/linux-64::biopython-1.78-py311h5eee18b_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.4.2-h6a678d5_6
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py311h5eee18b_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py311h30b3d60_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py311hba01205_0
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0
+  numpy              pkgs/main/linux-64::numpy-1.23.5-py311h75bd12f_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.23.5-py311h0ff3221_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1t-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-23.0.1-py311h06a4308_0
+  python             pkgs/main/linux-64::python-3.11.2-h7a1cb2a_0
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0
+  setuptools         pkgs/main/linux-64::setuptools-66.0.0-py311h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py311h06a4308_0
+  xz                 pkgs/main/linux-64::xz-5.2.10-h5eee18b_1
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-66.0.0    | 1.6 MB    |                                                                                                                               |   0% setuptools-66.0.0    | 1.6 MB    | #2                                                                                                                            |   1% setuptools-66.0.0    | 1.6 MB    | ######1                                                                                                                       |   5% setuptools-66.0.0    | 1.6 MB    | #############5                                                                                                                |  11% setuptools-66.0.0    | 1.6 MB    | ##################5                                                                                                           |  15% setuptools-66.0.0    | 1.6 MB    | #######################4                                                                                                      |  19% setuptools-66.0.0    | 1.6 MB    | ############################4                                                                                                 |  23% setuptools-66.0.0    | 1.6 MB    | #################################3                                                                                            |  27% setuptools-66.0.0    | 1.6 MB    | ######################################3                                                                                       |  31% setuptools-66.0.0    | 1.6 MB    | ############################################4                                                                                 |  36% setuptools-66.0.0    | 1.6 MB    | #####################################################1                                                                        |  43% setuptools-66.0.0    | 1.6 MB    | ###############################################################                                                               |  50% setuptools-66.0.0    | 1.6 MB    | #######################################################################6                                                      |  57% setuptools-66.0.0    | 1.6 MB    | ####################################################################################                                          |  67% setuptools-66.0.0    | 1.6 MB    | ###############################################################################################1                              |  76% setuptools-66.0.0    | 1.6 MB    | ###########################################################################################################4                  |  86% setuptools-66.0.0    | 1.6 MB    | #######################################################################################################################8      |  96% setuptools-66.0.0    | 1.6 MB    | ############################################################################################################################# | 100% 
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                  *  /home/shreelaxmi/miniconda3
+mcd-dev                  /home/shreelaxmi/miniconda3/envs/mcd-dev
+snowflakes               /home/shreelaxmi/miniconda3/envs/snowflakes
+
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda activate snowflakes
+(snowflakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda deactivate
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda create --name snam[Ke[Kkes python-[K=3.9
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/shreelaxmi/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-23.0.1                 |   py39h06a4308_0         2.5 MB
+    python-3.9.16              |       h7a1cb2a_2        25.1 MB
+    wheel-0.38.4               |   py39h06a4308_0          64 KB
+    ------------------------------------------------------------
+                                           Total:        27.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.4.2-h6a678d5_6
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1t-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-23.0.1-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.16-h7a1cb2a_2
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0
+  setuptools         pkgs/main/linux-64::setuptools-66.0.0-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py39h06a4308_0
+  xz                 pkgs/main/linux-64::xz-5.2.10-h5eee18b_1
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.16        | 25.1 MB   |                                                                                                                               |   0% python-3.9.16        | 25.1 MB   |                                                                                                                               |   0% python-3.9.16        | 25.1 MB   | 8                                                                                                                             |   1% python-3.9.16        | 25.1 MB   | ####5                                                                                                                         |   4% python-3.9.16        | 25.1 MB   | ########3                                                                                                                     |   7% python-3.9.16        | 25.1 MB   | ############3                                                                                                                 |  10% python-3.9.16        | 25.1 MB   | ###############5                                                                                                              |  12% python-3.9.16        | 25.1 MB   | ####################4                                                                                                         |  16% python-3.9.16        | 25.1 MB   | ########################                                                                                                      |  19% python-3.9.16        | 25.1 MB   | #############################1                                                                                                |  23% python-3.9.16        | 25.1 MB   | ################################9                                                                                             |  26% python-3.9.16        | 25.1 MB   | #######################################7                                                                                      |  32% python-3.9.16        | 25.1 MB   | ############################################9                                                                                 |  36% python-3.9.16        | 25.1 MB   | #################################################6                                                                            |  40% python-3.9.16        | 25.1 MB   | #####################################################3                                                                        |  43% python-3.9.16        | 25.1 MB   | ###########################################################1                                                                  |  47% python-3.9.16        | 25.1 MB   | ###############################################################                                                               |  50% python-3.9.16        | 25.1 MB   | #####################################################################1                                                        |  55% python-3.9.16        | 25.1 MB   | ##########################################################################                                                    |  59% python-3.9.16        | 25.1 MB   | #################################################################################1                                            |  65% python-3.9.16        | 25.1 MB   | #####################################################################################2                                        |  68% python-3.9.16        | 25.1 MB   | ##########################################################################################3                                   |  72% python-3.9.16        | 25.1 MB   | ##############################################################################################                                |  75% python-3.9.16        | 25.1 MB   | ################################################################################################8                             |  77% python-3.9.16        | 25.1 MB   | ###################################################################################################5                          |  80% python-3.9.16        | 25.1 MB   | ######################################################################################################                        |  82% python-3.9.16        | 25.1 MB   | ################################################################################################################1             |  90% python-3.9.16        | 25.1 MB   | ###################################################################################################################9          |  93% python-3.9.16        | 25.1 MB   | ##########################################################################################################################4   |  98% python-3.9.16        | 25.1 MB   | ############################################################################################################################# | 100% 
+pip-23.0.1           | 2.5 MB    |                                                                                                                               |   0% pip-23.0.1           | 2.5 MB    | #######7                                                                                                                      |   6% pip-23.0.1           | 2.5 MB    | ######################4                                                                                                       |  18% pip-23.0.1           | 2.5 MB    | ##############################################3                                                                               |  37% pip-23.0.1           | 2.5 MB    | ########################################################################################################2                     |  83% pip-23.0.1           | 2.5 MB    | ############################################################################################################################# | 100% 
+wheel-0.38.4         | 64 KB     |                                                                                                                               |   0% wheel-0.38.4         | 64 KB     | ##############################################################################################3                               |  76% wheel-0.38.4         | 64 KB     | ############################################################################################################################# | 100% 
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - done
+Executing transaction: | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                  *  /home/shreelaxmi/miniconda3
+mcd-dev                  /home/shreelaxmi/miniconda3/envs/mcd-dev
+snakes                   /home/shreelaxmi/miniconda3/envs/snakes
+snowflakes               /home/shreelaxmi/miniconda3/envs/snowflakes
+
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda activate snakes
+(snakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ python --version
+Python 3.9.16
+(snakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda deactivate
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda search beautifulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py39h06a4308_0  pkgs/main           
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda search beautifulsoup4[11Pdeactivatepython --versionconda activate snakes
+(snakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda ibst[K[K[Knstall beautifus[Klsoup4
+Collecting package metadata (current_repodata.json): - \ | / done
+Solving environment: \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/shreelaxmi/miniconda3/envs/snakes
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.12.2      |   py39h06a4308_0         209 KB
+    soupsieve-2.4              |   py39h06a4308_0          69 KB
+    ------------------------------------------------------------
+                                           Total:         278 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.12.2-py39h06a4308_0
+  soupsieve          pkgs/main/linux-64::soupsieve-2.4-py39h06a4308_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+beautifulsoup4-4.12. | 209 KB    |                                                                                                                               |   0% beautifulsoup4-4.12. | 209 KB    | #########5                                                                                                                    |   8% beautifulsoup4-4.12. | 209 KB    | ###############################################9                                                                              |  38% beautifulsoup4-4.12. | 209 KB    | ############################################################################################################################# | 100% 
+soupsieve-2.4        | 69 KB     |                                                                                                                               |   0% soupsieve-2.4        | 69 KB     | ############################################################################################################################# | 100% 
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - done
+(snakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/shreelaxmi/miniconda3/envs/snakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2           py39h06a4308_0  
+ca-certificates           2023.01.10           h06a4308_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.4.2                h6a678d5_6  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   1.1.1t               h7f8727e_0  
+pip                       23.0.1           py39h06a4308_0  
+python                    3.9.16               h7a1cb2a_2  
+readline                  8.2                  h5eee18b_0  
+setuptools                66.0.0           py39h06a4308_0  
+soupsieve                 2.4              py39h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tzdata                    2023c                h04d1e81_0  
+wheel                     0.38.4           py39h06a4308_0  
+xz                        5.2.10               h5eee18b_1  
+zlib                      1.2.13               h5eee18b_0  
+(snakes) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ exit
+exit
+Script done, file is /home/shreelaxmi/my_conda_session
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ ls -ltr
+total 75252
+-rw-r--r--  1 shreelaxmi shreelaxmi 76607678 May 17  2022 Miniconda3-latest-Linux-x86_64.sh
+-rw-r--r--  1 shreelaxmi shreelaxmi   225280 Apr 17 12:04 my_unix_session_1
+drwxr-xr-x  4 shreelaxmi shreelaxmi     4096 Apr 18 07:36 [0m[01;34mtamlep[0m
+drwxr-xr-x 16 shreelaxmi shreelaxmi     4096 Apr 18 08:11 [01;34mminiconda3[0m
+-rw-r--r--  1 shreelaxmi shreelaxmi   176128 Apr 18 08:14 my_git_session
+-rw-r--r--  1 shreelaxmi shreelaxmi    28801 Apr 18 08:15 my_conda_session
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd [K[K[Ksudo rm -r tamlep/
+[sudo] password for shreelaxmi: 
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ mkdir tample[K[K[Klep
+(base) ]0;shreelaxmi@TIGER02099: ~[01;32mshreelaxmi@TIGER02099[00m:[01;34m~[00m$ cd tamlep/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ git clone https://github.com/shree1akshmi/TA-MLE
+Cloning into 'TA-MLE'...
+warning: You appear to have cloned an empty repository.
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ ls
+[0m[01;34mTA-MLE[0m
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep[00m$ cd TA-MLE/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ ls
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ echo "# TA-MLE" >> README.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git init
+Reinitialized existing Git repository in /home/shreelaxmi/tamlep/TA-MLE/.git/
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git add README.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGER02099[00m:[01;34m~/tamlep/TA-MLE[00m$ git commit -m "first commit"
+[master (root-commit) 1d5c91e] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+(base) ]0;shreelaxmi@TIGER02099: ~/tamlep/TA-MLE[01;32mshreelaxmi@TIGE
